@@ -1,0 +1,22 @@
+server {
+  listen 8080 default;
+  server_name  <%= config['server_name'] %>;
+  root <%= config['root'] %>;
+  passenger_enabled on;
+
+  access_log  /var/log/nginx/<%= config['app_name'] %>.access.log  combined;
+  error_log  /var/log/nginx/<%= config['app_name'] %>.error.log;
+
+  # redirect server error pages to the static page /50x.html
+  #
+  error_page   500 502 503 504  /50x.html;
+    location = /50x.html {
+    root   html;
+  }
+
+  # deny access to .git directories
+  #
+  location ~ /\.git {
+    deny all;
+  }
+}

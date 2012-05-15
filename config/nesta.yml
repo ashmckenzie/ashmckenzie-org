@@ -1,0 +1,13 @@
+title: "Ash McKenzie"
+subtitle: "The bare minimum"
+author:
+  name: Ash McKenzie
+  uri: http://ashmckenzie.org
+  email: ash@greenworm.com.au
+theme: ashmckenzie
+cache: false
+content: content
+# production:
+#   cache: true    
+#   content: /home/apps/ashmckenzie/current/content
+#   google_analytics_code: "UA-9865706-1"

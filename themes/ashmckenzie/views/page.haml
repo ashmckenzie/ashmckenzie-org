@@ -1,0 +1,4 @@
+#content
+  %article{ :id => "#{page_id(@page)}" }
+    ~ @page.to_html(self)
+    = haml :page_meta, :layout => false, :locals => { :page => @page }    
