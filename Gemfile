@@ -2,10 +2,16 @@ source :rubygems
 
 gem 'nesta', '0.9.13'
 gem 'nesta-plugin-page', :path => './nesta-plugin-page'
+gem 'nesta-plugin-redirect', :path => './nesta-plugin-redirect'
+gem 'nesta-plugin-foldable'
 gem 'toadhopper-sinatra'
 gem 'mail'
+gem 'coderay'
+gem 'rack-rewrite', '~> 1.2.1'
+gem 'will_paginate', '~> 3.0'
 
 group :development do
+  gem 'thin'
   gem 'rake'
   gem 'shotgun'
   gem 'pry'

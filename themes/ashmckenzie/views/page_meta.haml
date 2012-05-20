@@ -1,11 +1,18 @@
 - if page.date
   %p.meta
-    Published
-    - if page.date
-      on
-      %time(datetime="#{page.date.to_s}" pubdate=true)= format_date(page.date)
+    - if page.metadata('country')
+      %span.bold Country:
+      %img{ src: "/ashmckenzie/images/flags/#{page.metadata('country')}.gif", class: 'country-image', alt: '' }
+    %br
+    %span.bold Published: 
+    - if page.draft?
+      DRAFT
+    - else
+      - if page.date
+        %time(datetime="#{page.date.to_s}" pubdate=true)= format_date(page.date)
+    %br
     - if (! page.categories.empty?)
-      in
+      %span.bold Categories:
       - page.categories.each do |category|
         - if category != page.categories[-1]
           = succeed ',' do

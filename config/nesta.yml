@@ -1,5 +1,5 @@
-title: "Ash McKenzie"
-subtitle: "The bare minimum"
+title: 'The bare minimum'
+subtitle: 'by Ash McKenzie'
 author:
   name: Ash McKenzie
   uri: http://ashmckenzie.org
@@ -7,7 +7,7 @@ author:
 theme: ashmckenzie
 cache: false
 content: content
-# production:
-#   cache: true    
-#   content: /home/apps/ashmckenzie/current/content
-#   google_analytics_code: "UA-9865706-1"
+production:
+  cache: true    
+  content: /home/apps/ashmckenzie/current/content
+  google_analytics_code: "UA-9865706-1"

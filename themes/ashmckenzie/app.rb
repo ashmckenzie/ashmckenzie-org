@@ -1,3 +1,7 @@
+require 'will_paginate'
+require 'will_paginate/array'
+require 'will_paginate/view_helpers/sinatra'
+
 include Sinatra::Toadhopper::Helpers
 
 CONFIG = YAML.load_file('./config/config.yml')
@@ -11,6 +15,8 @@ module Nesta
       :api_key => CONFIG['errbit']['api_key'],
       :notify_host => CONFIG['errbit']['host'],
       :filters => /password/
+
+    helpers WillPaginate::Sinatra::Helpers
 
     # FIXME: move this out into a plugin
     #

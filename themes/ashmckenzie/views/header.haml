@@ -1,10 +1,15 @@
 %header
   %hgroup
-    %h1= @heading
+    %h1
+      %a{ href: '/' }
+        = @heading
     %h2= @subtitle
 
-/ %nav
-/   - display_menu(@menu_items, :levels => 1)
+%nav.menu
+  - display_menu(@menu_items, :levels => 1)
+
+%nav.categories
+  - display_menu(Nesta::Menu.for_path('/', 'categories.txt'), :levels => 1)
 
 %hr.one
 %hr.two

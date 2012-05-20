@@ -1,0 +1,29 @@
+Date: 17 May 2012 00:00:00
+Categories: ruby
+
+h1. Ruby's Regexp.union
+
+I can across the a handy regular expression method in Ruby the other day. It's called "Regexp.union":http://www.ruby-doc.org/core-1.9.3/Regexp.html#method-c-union and can be used as follows:
+
+<pre class="brush: ruby; sh_ruby" data-language="ruby">
+  regexs = [
+    /^layout: .+$/,
+    /^title: .+$/
+  ]
+
+  contents = [
+    'layout: post-to-be-removed',
+    'title: Some title that will be removed',
+    'tags: this, will, be, kept'
+  ]
+
+  r = Regexp.union(regexs)
+
+  p contents.reject { |line| line.match(r) }
+</pre>
+
+Produces:
+
+<pre class="brush: ruby; sh_ruby" data-language="ruby">
+  ["tags: this, will, be, kept"]
+</pre>

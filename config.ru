@@ -10,6 +10,9 @@ end
 use Rack::ConditionalGet
 use Rack::ETag
 
+require 'will_paginate'
+require 'will_paginate/view_helpers/sinatra'
+
 require 'nesta/env'
 
 Nesta::Env.root = ::File.expand_path('.', ::File.dirname(__FILE__))
@@ -26,6 +29,13 @@ end
 
 require 'sinatra'
 require 'sinatra/toadhopper'
+
 require 'nesta/app'
+
+use Rack::Rewrite do
+  Nesta::Plugin::Redirect::Helpers::Redirect.pages_with_redirect.each do |page|
+    r301 page.metadata('redirect'), "/#{page.path}"
+  end
+end
 
 run Nesta::App

@@ -1,74 +1,146 @@
+$base_font_color: #333
+$base_bg_color: #555
+$base_fg_color: #fff
+$body_width: 960px
+$outer_width: 820px
+$inner_width: 740px
+
 body
+  background-color: $base_bg_color 
+  color: $base_font_color    
   font:
     family: 'Helvetica Neue', Helvetica, Verdana
     size: 0.9em
   line-height: 22px
   margin: 0 auto
-  width: 960px
+  width: $body_width
 
-header,
+header hgroup *,
 nav,
 footer
   text-align: center
 
-nav
+nav.breadcrumb
+  border-bottom: 1px dotted #aaa
+  font-family: Georgia
+  padding: 4px 0
+  text-align: left
   ul
     padding: 0
   li
     display: inline
     list-style: none
-    padding: 0 6px
     &.current
       font-weight: bold
+    &::after
+      content: "\00BB"
+    &:last-child::after
+      content: ''
+
+div#container.outer
+  background-color: $base_fg_color
+  margin: 0 auto
+  width: $outer_width
+
+div#container.inner,
+div#content,
+header,
+footer,
+  background-color: $base_fg_color
+  margin: 0 auto
+
+div#container.inner,
+div#content
+  width: $inner_width
 
 div#content
-  margin: 40px auto
-  width: 600px
+  margin: 30px auto
 
 footer
+  border-top: 2px solid #ccc
   font-size: 0.8em
-  margin-top: 40px
-  a
-    color: #555
-    text-decoration: none
-    padding: 0 6px
-    &:hover
-      text-decoration: underline
-    img
-      padding-right: 5px
-      vertical-align: middle
-  p
+  margin: 0 auto
+  padding: 10px 0
+  p.links
     line-height: 15px
+    padding-top: 8px
+    a
+      color: #555
+      text-decoration: none
+      padding: 0 6px
+      &:hover
+        text-decoration: underline
+      img
+        padding-right: 5px
+        vertical-align: middle
 
-article
+section.articles 
+  ol
+    padding: 0
+    list-style: none
+    > li
+      border-bottom: 2px solid #ddd
+      padding-bottom: 10px
+      &:last-child
+        border: none
+        padding-bottom: 0
+
+article 
+  color: #444
   h1
-    display: none
-  &#home
+    font-size: 2.4em
+  a
+    color: #444
+    text-decoration: none
+    border-bottom: 1px dotted #999
+    &:hover
+      border-bottom: 1px solid #666    
+  p
     text-align: justify
+    &.meta
+      color: #777
+      font-size: 0.9em
+      margin-top: 0
+      text-align: right
+      a
+        color: #888
+      img.country-image
+        padding-left: 3px
+        vertical-align: middle
+    &.image img
+      background-color: #ddd
+      border: 1px solid #aaa
+      padding: 4px
+    &.read_more
+      font-size: 0.9em
+      margin-bottom: 0
+  &.draft h1
+    &::after
+      content: url(/ashmckenzie/images/draft.png) no-repeat 0 0
+      position: relative
+      top: 2px
+      left: 2px
 
-form p
-  height: 30px
-  clear: both
-  label
-    display: block
-    float: left
-    width: 90px
-  input, select
-    float: left
-
-header
+#container > header
+  padding: 28px 0 14px 0
   h1
-    font-size: 3em
-    
+    font-size: 4.0em
+    margin-top: 0
+    a
+      color: $base_font_color
+      text-decoration: none
   h2
-    font-size: 1.5em
+    font-size: 2.1em
 
 div.small-br
   height: 8px
+
+div.pagination
+  a
+    border: none !important
   
 hr
   border: 0
-  width: 600px
   height: 4px
   padding: 0
   margin-top: 0
@@ -78,6 +150,22 @@ hr
     background-color: #bbb
   &.two
     background-color: #ddd
+
+h1, h2
+  font-family: Georgia
+
+.image
+  margin: 30px 0
+  text-align: center
     
 .center
   text-align: center
+
+.bold
+  font-weight: bold
+
+#home 
+  nav.breadcrumb
+    display: none
+  #content article > h1
+    display: none

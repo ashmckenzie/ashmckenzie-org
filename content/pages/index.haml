@@ -1,3 +1,7 @@
 %h1 Home
 
-%section.articles= article_summaries(latest_articles)
+- articles = Nesta::Page.find_articles.paginate(:page => params[:page], :per_page => 5)
+
+%section.articles= article_summaries(articles)
+
+= paginate articles
