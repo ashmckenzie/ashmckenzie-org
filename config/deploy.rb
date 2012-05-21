@@ -33,7 +33,8 @@ after "deploy:setup", "deploy:more_setup"
 
 before "deploy:create_symlink",
   "deploy:configs",
-  "deploy:symlink_attachments",
+  "deploy:attachments:sync",
+  "deploy:attachments:symlink",
   "deploy:nginx_site",
   "deploy:nginx_reload"
 
@@ -50,9 +51,17 @@ namespace :deploy do
     run "ln -nfs #{shared_path}/config/config.yml #{release_path}/config/config.yml"
   end
 
-  desc 'Symlink attachments'
-  task :symlink_attachments do
-    run "ln -nfs #{shared_path}/attachments #{release_path}/content/"
+  namespace :attachments do
+
+    desc 'Sync attachments'
+    task :sync do
+      system "rake attachments:sync"
+    end
+
+    desc 'Symlink attachments'
+    task :symlink do
+      run "ln -nfs #{shared_path}/attachments #{release_path}/content/"
+    end    
   end
 
   desc 'Deploy NGiNX site configuration'
