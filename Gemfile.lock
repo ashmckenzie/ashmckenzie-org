@@ -1,6 +1,6 @@
 GIT
-  remote: https://ashmckenzie@github.com/ashmckenzie/nesta.git
-  revision: 858af82c8b0627f6621ad9fcbcfdb26f7118cd4a
+  remote: git@github.com:ashmckenzie/nesta.git
+  revision: dca61f93493f5acb05d92ffd106963f63708574e
   specs:
     nesta (0.9.13)
       RedCloth (~> 4.2)
