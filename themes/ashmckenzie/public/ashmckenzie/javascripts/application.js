@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  
   // SyntaxHighlighter.all();
   // sh_highlightDocument();
 
@@ -15,5 +16,4 @@ $(document).ready(function() {
   // Colorbox lightbox for images
   //
   $('article').each(function() { $(this).find('p.image a').colorbox(); })
-  // $("p.image a").colorbox({ rel: 'cboxElement' });
 });
