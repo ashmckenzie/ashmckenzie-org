@@ -1,2 +1,2 @@
-/euro-trip-2010
-/ruby
+euro-trip-2010
+ruby
