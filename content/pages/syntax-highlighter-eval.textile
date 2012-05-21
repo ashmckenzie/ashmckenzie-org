@@ -1,7 +1,31 @@
 Date: 19 May 2012 00:00:00
 Categories: ruby
-Flags: draft
 
-h1. Syntax highlighter eval
+h1. Syntax highlighter evaluation
 
-Choosing a syntax highlighter turned out to be quite a task :( 
+Choosing a syntax highlighter turned out to be quite a task.  I tried the following: 
+
+* "Coderay":http://coderay.rubychan.de
+* "SHJS":http://shjs.sourceforge.net
+* "SyntaxHighlighter":http://alexgorbatchev.com/SyntaxHighlighter
+* and finally "Rainbows":http://craig.is/making/rainbows
+
+I chose Rainbows in the end because of it's easy installation and the list of really great "themes":https://github.com/ccampbell/rainbow/tree/master/themes.  Here's how each syntax highlighter stacked up:
+
+h2. Rainbows
+
+p(image). !/attachments/rainbows.jpg!
+
+<!-- ~~fold~~ -->
+
+h2. SyntaxHighlighter
+
+p(image). !/attachments/syntax-highlighter.jpg!
+
+h2. Coderay
+
+Could not get to work properly when using Textile :(
+
+h2. SHJS
+
+p(image). !/attachments/shjs.jpg!

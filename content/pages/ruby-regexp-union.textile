@@ -12,7 +12,7 @@ I can across the a handy regular expression method in Ruby the other day. It's c
   ]
 
   contents = [
-    'layout: post-to-be-removed',
+    'layout: layout-to-be-removed',
     'title: Some title that will be removed',
     'tags: this, will, be, kept'
   ]

@@ -1,33 +1,54 @@
 $base_font_color: #333
-$base_bg_color: #555
+$base_bg_color: #aaa
 $base_fg_color: #fff
-$body_width: 960px
 $outer_width: 820px
 $inner_width: 760px
 
-body
+html
   background-color: $base_bg_color 
+
+body
+  background-color: $base_fg_color 
+  border: 3px solid #999
+  border:
+    top: none
+    bottom: none
   color: $base_font_color    
   font:
     family: 'Helvetica Neue', Helvetica, Verdana
     size: 0.9em
   line-height: 22px
   margin: 0 auto
-  width: $body_width
+  width: $outer_width
 
-body div.inner > header 
+header#header
+  width: $inner_width
+
+header#header
+  padding: 28px 0 14px 0
+  h1
+    font-size: 4.0em
+    margin-top: 0
+    a
+      color: $base_font_color
+      text-decoration: none
+  h2
+    font-size: 2.1em
   hgroup
     margin-top: 20px
   &> nav
     padding-bottom: 45px
   div.filler
     background-color: $base_bg_color
-    height: 30px
-    left: -40px
+    border: 3px solid #999
+      left: 3px solid $base_bg_color
+      right: 3px solid $base_bg_color
+    height: 20px
+    left: -33px
     position: relative    
-    width: $body_width
+    width: $outer_width
 
-header hgroup *,
+header#header hgroup *,
 nav,
 footer
   text-align: center
@@ -52,30 +73,19 @@ nav.breadcrumb
     &:last-child::after
       content: ''
 
-div#container.outer
-  background-color: $base_fg_color
-  margin: 0 auto
-  width: $outer_width
-
-div#container.inner,
 div#content,
 header,
 footer,
   background-color: $base_fg_color
   margin: 0 auto
-
-div#container.inner,
-div#content
   width: $inner_width
-
-div#content
-  margin: 30px auto
 
 footer
   border-top: 2px solid #ccc
   font-size: 0.8em
-  margin: 0 auto 40px auto
-  padding: 10px 0
+  height: 55px
+  margin: 30px auto 40px auto
+  padding: 0
   p.links
     line-height: 15px
     padding-top: 8px
@@ -134,17 +144,6 @@ article
       content: url(/ashmckenzie/images/draft.png) no-repeat 0 0
       position: relative
       left: 8px
-
-#container > header
-  padding: 28px 0 14px 0
-  h1
-    font-size: 4.0em
-    margin-top: 0
-    a
-      color: $base_font_color
-      text-decoration: none
-  h2
-    font-size: 2.1em
 
 div.small-br
   height: 8px

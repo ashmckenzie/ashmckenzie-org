@@ -10,27 +10,15 @@
     %link{ :href => "/articles.xml", :rel => "alternate", :type => "application/atom+xml" }
     %link{ :href => "/ashmckenzie/stylesheets/colorbox.css", :media => "screen", :rel => "stylesheet", :type => "text/css" }
     %link{ :href => "/ashmckenzie/stylesheets/rainbow-twilight.css", :media => "screen", :rel => "stylesheet", :type => "text/css" }
-    / %link{ :href => "/ashmckenzie/shjs/css/sh_vim-dark.min.css", :media => "screen", :rel => "stylesheet", :type => "text/css" }
-    / %link{ :href => "/ashmckenzie/stylesheets/syntaxhighlighter/shCore.css", :media => "screen", :rel => "stylesheet", :type => "text/css" }
-    / %link{ :href => "/ashmckenzie/stylesheets/syntaxhighlighter/shThemeRDark.css", :media => "screen", :rel => "stylesheet", :type => "text/css" }
-    / %link{ :href => "/css/syntaxhighlighter.css", :media => "screen", :rel => "stylesheet", :type => "text/css" }
     %link{ :href => "/css/pagination.css", :media => "screen", :rel => "stylesheet", :type => "text/css" }
     %link{ :href => "/css/application.css", :media => "screen", :rel => "stylesheet", :type => "text/css" }
     - local_stylesheet_link_tag('local')
     %script{ :type => "text/javascript", :src => "/ashmckenzie/javascripts/jquery-1.7.1.min.js" }
     %script{ :type => "text/javascript", :src => "/ashmckenzie/javascripts/jquery.colorbox-min.js" }
     %script{ :type => "text/javascript", :src => "/ashmckenzie/javascripts/rainbow-custom.min.js" }
-    / %script{ :type => "text/javascript", :src => "/ashmckenzie/shjs/sh_main.min.js" }
-    / %script{ :type => "text/javascript", :src => "/ashmckenzie/shjs/lang/sh_ruby.js" }
-    / %script{ :type => "text/javascript", :src => "/ashmckenzie/shjs/lang/sh_sh.js" }
-    / %script{ :type => "text/javascript", :src => "/ashmckenzie/javascripts/syntaxhighlighter/shCore.js" }
-    / %script{ :type => "text/javascript", :src => "/ashmckenzie/javascripts/syntaxhighlighter/shBrushRuby.js" }
-    / %script{ :type => "text/javascript", :src => "/ashmckenzie/javascripts/syntaxhighlighter/shBrushShell.js" }
     %script{ :type => "text/javascript", :src => "/ashmckenzie/javascripts/application.js" }
     = haml :analytics, :layout => false            
   %body{ :id => "#{page_id(@page)}" }
-    #container.outer
-      #container.inner
-        = haml :header, :layout => false
-        = yield
-        = haml :footer, :layout => false
+    = haml :header, :layout => false
+    = yield
+    = haml :footer, :layout => false

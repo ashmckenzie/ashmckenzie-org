@@ -1,8 +1,5 @@
 $(document).ready(function() {
   
-  // SyntaxHighlighter.all();
-  // sh_highlightDocument();
-
   // Add a description <p> tag under each image and add title to <a> tag so
   // Colorbox can utilise it
   //
