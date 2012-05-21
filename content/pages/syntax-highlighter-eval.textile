@@ -1,6 +1,7 @@
 Date: 19 May 2012 00:00:00
 Categories: ruby
+Flags: draft
 
 h1. Syntax highlighter eval
 
-Bleep, bleep
+Choosing a syntax highlighter turned out to be quite a task :( 

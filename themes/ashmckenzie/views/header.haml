@@ -5,13 +5,12 @@
         = @heading
     %h2= @subtitle
 
-%nav.menu
-  - display_menu(@menu_items, :levels => 1)
+  %nav
+    %nav.menu
+      - display_menu(@menu_items, :levels => 1)
 
-%div.categories  
-  %label Categories:
-  %nav.categories
-    - display_menu(Nesta::Menu.for_path('/', 'categories.txt'), :levels => 1)
+    %div.categories  
+      %nav.categories
+        - display_menu(Nesta::Menu.for_path('/', 'categories.txt'), :levels => 1)
 
-%hr.one
-%hr.two
+  .filler

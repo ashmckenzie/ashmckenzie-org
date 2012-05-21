@@ -3,7 +3,7 @@ $base_bg_color: #555
 $base_fg_color: #fff
 $body_width: 960px
 $outer_width: 820px
-$inner_width: 740px
+$inner_width: 760px
 
 body
   background-color: $base_bg_color 
@@ -15,18 +15,33 @@ body
   margin: 0 auto
   width: $body_width
 
+body div.inner > header 
+  hgroup
+    margin-top: 20px
+  &> nav
+    padding-bottom: 45px
+  div.filler
+    background-color: $base_bg_color
+    height: 30px
+    left: -40px
+    position: relative    
+    width: $body_width
+
 header hgroup *,
 nav,
 footer
   text-align: center
 
 nav.breadcrumb
-  border-bottom: 1px dotted #aaa
+  border:
+    bottom: 1px dotted #aaa
+  clear: both
   font-family: Georgia
   padding: 4px 0
   text-align: left
   ul
     padding: 0
+    margin-top: 0
   li
     display: inline
     list-style: none
@@ -59,7 +74,7 @@ div#content
 footer
   border-top: 2px solid #ccc
   font-size: 0.8em
-  margin: 0 auto
+  margin: 0 auto 40px auto
   padding: 10px 0
   p.links
     line-height: 15px
@@ -118,8 +133,7 @@ article
     &::after
       content: url(/ashmckenzie/images/draft.png) no-repeat 0 0
       position: relative
-      top: 2px
-      left: 2px
+      left: 8px
 
 #container > header
   padding: 28px 0 14px 0
