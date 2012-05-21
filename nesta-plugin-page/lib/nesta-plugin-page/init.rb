@@ -7,7 +7,7 @@ module Nesta
         end
 
         def paginate items
-           will_paginate(items, previous_label: 'Newer', next_label: 'Older')
+          will_paginate(items, previous_label: 'Newer', next_label: 'Older')
         end
       end
     end

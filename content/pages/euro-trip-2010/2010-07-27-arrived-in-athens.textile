@@ -12,6 +12,6 @@ We were a bit concerned from the beginning because the driver did not know where
 
 It was the right hotel, quite a nice hotel in fact.  We very quickly decided we'd check in, head upstairs and begin hunting for a new hotel immediately.  The man at the front desk was very nice and made it all the harder to decide to leave, but we weren't comfortable with the location and did not want to leave until we could confirm we were in a safe neighbourhood.  We ordered some pizza and beer and soon felt a little better.  We ate the pizza in our room and found a new hotel to move to, but not without taking some great shots (if I do say so myself!) of the Parthenon from the roof of the hotel.  We had some beers and took in the sites, and also the mayhem that was going on at street level.  A strange mix...
 
-p(image). !/attachments/athens/DSC_0825_thumb_500.JPG(The Parthenon)!:/attachments/athens/DSC_0825_thumb_800.JPG
+cbimage. athens|1|DSC_0825_thumb_500.jpg|DSC_0825_thumb_800.jpg|The Parthenon
 
 Tomorrow we're off to our new hotel and then some sightseeing!

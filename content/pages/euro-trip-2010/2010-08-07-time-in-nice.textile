@@ -6,15 +6,15 @@ h1. Time in Nice
 
 Our trip from our hotel in Venice to the airport was interesting as we had to catch a water taxi to get there!  At 6:30 AM you'd think it would be relatively quiet on the water with other water taxis but it was like peak hour!  There is a ferry that runs to and from the airport, but only from 9 AM which didn't help us :(
 
-p(image). !/attachments/venice/IMG_1460_thumb_500.JPG(Alison in the back of the water taxi)!:/attachments/venice/IMG_1460_thumb_800.JPG
+cbimage. venice||IMG_1460_thumb_500.jpg|IMG_1460_thumb_800.jpg|Alison in the back of the water taxi
 
 <!-- ~~fold~~ -->
 
 We were heading for Nice in the South of France for a different perspective on France compared to our experience of Paris.  Because we got up around 5 AM and had numerous periods of waiting around for some form of transport or another we were very tired by the time we arrived in Nice :(  We unpacked and had a bit of a snooze before waking up to the sound of music.  We got ourselves ready and wandered out for something to eat, or to at least narrow down the options (eating out every night becomes a drag after a while!)  We'd arrived in Nice during the time of "Prom Party 2010":FIXME which happens every Friday and Saturday night from FIXME to FIXME.  It's a celebration of music and good times :)  We had an amazing Turkish inspired dinner at a tiny little place, a bit off the main track (always the best place to find hidden gems) and wandered back to the Promenade to see what was going on.  We watched a few bands play (sorry, no pics!) and wandered up and down the Promenade before most of the festivities were packing up and the crowds started to disperse.
 
-p(image). !/attachments/nice/IMG_1468_thumb_500.JPG(Alison selecting some lollies at the Promenade Party)!:/attachments/nice/IMG_1468_thumb_800.JPG
+cbimage. nice||IMG_1468_thumb_500.jpg|IMG_1468_thumb_800.jpg|Alison selecting some lollies at the Promenade Party
 
-p(image). !/attachments/nice/IMG_1470_thumb_500.JPG(Dude on rollerblades jumping over bar at the Promenade Party)!:/attachments/nice/IMG_1470_thumb_800.JPG
+cbimage. nice||IMG_1470_thumb_500.jpg|IMG_1470_thumb_800.jpg|Dude on rollerblades jumping over bar at the Promenade Party
 
 Nice was okay, but I found it to be a bit like Surfers Paradise in that it's a favourite destination by lots of different countries which means it's doesn't "seem" very French (well, not in the parts we were in) and all the shops and restaurants are geared towards souvenirs and touristy junk.  We were both a little disappointed with Nice, but we think it was partially due to our waning energy and our need or a "down" day were we didn't do much which is what we did on the second day in Nice, basically nothing!
 

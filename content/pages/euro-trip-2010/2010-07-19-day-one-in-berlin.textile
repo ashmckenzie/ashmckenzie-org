@@ -6,34 +6,34 @@ h1. Day one in Berlin
 
 Had a big first day in Berlin, lots of walking around and sussing out the locale.  The weather has been fantastic, high 20's with a slight breeze.  Initial impressions of Berlin were a massive city very similar to Melbourne with the types of shops and restaurants.  We're staying at the "Hotel Boulevard":http://bit.ly/b7Bb4d, right in the heart of Berlin.  Not more than 200 metres away is a huge church that still bears the scars of the war.  It's missing half of the larger middle spire and half of a smaller spire as well.  It's easily the most thought provoking and shocking reminder of what went on during the war.  Where our hotel currently stands would definitely been bombed during the war, no doubt about it.
 
-p(image). !/attachments/berlin/DSC_0413_thumb_500.JPG(Memorial church)!:/attachments/berlin/DSC_0413_thumb_800.JPG
+cbimage. berlin|1|DSC_0413_thumb_500.jpg|DSC_0413_thumb_800.jpg|Memorial church
 
 <!-- ~~fold~~ -->
 
 Had a quick breakky complete with brutal brewed coffee (seems to be a staple in Europe) and we were off on the Berlin city tour.  We took another city hop-on, hop-off type tour which is definitely the best way to see all the sights in roughly two hours.  We saw most of the tourist destinations such as the remaining section of the Berlin wall, Checkpoint Charlie, the Brandenberg Gates and the Berlin Dome to name a few.  The longer the tour, the more Berlin revealed it's past with more and more older buildings and appearing.  Where we're staying is right in the heart of the city, so it's really much like most big cities, but once you venture out you really get a sense of how big Berlin really is and how much development is going on... it's almost as if they're trying to erase the past by building all sorts of new precincts and offices.  A lot of the new development is happening either side of where the Berlin wall used to stand as it was previously an undesirable location for development for obvious reasons.
 
-p(image). !/attachments/berlin/DSC_0415_thumb_500.JPG(Remaining section of the Berlin wall)!:/attachments/berlin/DSC_0415_thumb_800.JPG
+cbimage. berlin|1|DSC_0415_thumb_500.jpg|DSC_0415_thumb_800.jpg|Remaining section of the Berlin wall
 
-p(image). !/attachments/berlin/DSC_0471_thumb_500.JPG(Brandenberg Gates with Alison in front)!:/attachments/berlin/DSC_0471_thumb_800.JPG
+cbimage. berlin|1|DSC_0471_thumb_500.jpg|DSC_0471_thumb_800.jpg|Brandenberg Gates with Alison in front
 
-p(image). !/attachments/berlin/DSC_0476_thumb_500.JPG(Close up of Brandenberg Gates)!:/attachments/berlin/DSC_0476_thumb_800.JPG
+cbimage. berlin|1|DSC_0476_thumb_500.jpg|DSC_0476_thumb_800.jpg|Close up of Brandenberg Gates
 
-p(image). !/attachments/berlin/DSC_0418_thumb_500.JPG(Checkpoint Charlie)!:/attachments/berlin/DSC_0418_thumb_800.JPG
+cbimage. berlin|1|DSC_0418_thumb_500.jpg|DSC_0418_thumb_800.jpg|Checkpoint Charlie
 
-p(image). !/attachments/berlin/DSC_0451_thumb_500.JPG(Berlin Dome)!:/attachments/berlin/DSC_0451_thumb_800.JPG
+cbimage. berlin|1|DSC_0451_thumb_500.jpg|DSC_0451_thumb_800.jpg|Berlin Dome
 
 I've been getting into all the different beers as there are plenty on offer.  My favourite beer, Schofferhofer Weizen is readily available in most restaurants as is Erdinger, Weistephaner and Berliner.  I may have gone slightly overboard with the beers but as they say, 'When in Rome...' ;)  Alison also got in on the act too :)
 
-p(image). !/attachments/berlin/IMG_1179_thumb_500.JPG(Berliner and poser)!:/attachments/berlin/IMG_1179_thumb_800.JPG
+cbimage. berlin|1|IMG_1179_thumb_500.jpg|IMG_1179_thumb_800.jpg|Berliner and poser
 
-p(image). !/attachments/berlin/IMG_1183_thumb_500.JPG(Shofferhofer and poser)!:/attachments/berlin/IMG_1183_thumb_800.JPG
+cbimage. berlin|1|IMG_1183_thumb_500.jpg|IMG_1183_thumb_800.jpg|Shofferhofer and poser
 
-p(image). !/attachments/berlin/IMG_1193_thumb_500.JPG(Erdinger and poser)!:/attachments/berlin/IMG_1193_thumb_800.JPG
+cbimage. berlin|1|IMG_1193_thumb_500.jpg|IMG_1193_thumb_800.jpg|Erdinger and poser
 
-p(image). !/attachments/berlin/IMG_1185_thumb_500.JPG(Hovels and a lady)!:/attachments/berlin/IMG_1185_thumb_800.JPG
+cbimage. berlin|1|IMG_1185_thumb_500.jpg|IMG_1185_thumb_800.jpg|Hovels and a lady
 
 On the way back from our diner at Mr Hai & Friends (Vietnamese / Japanese) we came across more panda / bear statues in the same pose (arms up).  We haven't been able to find out what they are exactly, but I think it's something to do with Germany's World Cup bid ?  Alison felt this particular statue (see below) needed a cuddle :)  After a long day we were glad to be back in our hotel.  Unfortunately we were situated on the street side and because there is no air conditioning we needed to have the window open.  We witnessed all sorts of crazy shenanigans very reminiscent of Saturday night in Melbourne with the hoons going crazy, people carrying on and brawling.  It was all a bit much really and we didn't really sleep that well :(  I had to laugh at one point however - we could hear this _really_ loud music getting louder and louder and thought it was a car with it's top down or something similar but it was in fact a guy on a bicycle with two large theatre speakers strapped to each side blasting out heavy German techno.  It was pretty cool and crazy at the same time.  He returned about an hour later, perhaps he was drumming up business for a local club as there's lots of 'euro disco' type places around.
 
-p(image). !/attachments/berlin/IMG_1194_thumb_500.JPG(Alison cuddling)!:/attachments/berlin/IMG_1194_thumb_800.JPG
+cbimage. berlin|1|IMG_1194_thumb_500.jpg|IMG_1194_thumb_800.jpg|Alison cuddling
 
 In the heart of Berlin, pretty much everything is open till at least 11 PM, with some places closing after midnight.  I have only been to New York once, but Berlin is a contender for the title of 'The city that never sleeps'.

@@ -6,7 +6,7 @@ h1. Day two in London
 
 Day two in London started off early, 5:30 AM early.  Damn timezones.  We both woke up feeling ready for action!  After a delicious breakfast we set off past the Marble Arch to Speaker's Corner to find the hop-on, hop-off bus.  It turns out there's a few of these tours, but we ended up on 'The Original Tour'.  There are three circuits you can take, the red, yellow or black.  The yellow and red circuits take you past Buckingham Palace, Trafalgar Square, The Tower of London, London Bridge, Westminster Abbey, Big Ben and St Paul's Cathedral just to name a few.  Alison and I were both completely floored with how beautiful London was, in particular the 'old' city which survived (for the most part) The Great Fire and Word War II.  Some areas weren't so lucky and had to be completely rebuilt with some buildings still showing visible bomb scarring.  Both tour circuits take around two and a half hours to complete, mainly because of the traffic.  According to our tour guide, the average speed around London has not tipped over 10 mph in it's entire history, regardless of the mode of transport.
 
-p(image). !/attachments/london/IMG_1071_thumb_500.JPG(Marble Arch)!:/attachments/london/IMG_1071_thumb_800.JPG
+cbimage. london|2|IMG_1071_thumb_500.jpg|IMG_1071_thumb_800.jpg|Marble Arch
 
 <!-- ~~fold~~ -->
 
@@ -16,7 +16,7 @@ My favourite landmark was the Tower of London with it's sheer size and structure
 
 We crossed the Thames quite a few times and witnessed the change in tide as the river is tidal, something we didn't know.  Early in the day the river was quite calm when the tide was out and we could see the edges of the river which was quite rocky but a lovely spot for a picnic apparently!  But later on in the day when the tide was quite high the river was quite turbulent with a visible current.  It was quite a site actually.
 
-p(image). !/attachments/london/IMG_1031_thumb_500.JPG(London Bridge)!:/attachments/london/IMG_1031_thumb_800.JPG
+cbimage. london|2|IMG_1031_thumb_500.jpg|IMG_1031_thumb_800.jpg|London Bridge
 
 Oh, here's something we learnt the hard way - despite driving on the left-hand side, it's 'not cool' to stand on the left-hand side of escalators.  Watch out yer git!  Also, getting a good coffee can be quite a challenge so prepare yourself... Melbourne definitely has the edge there.  There's also an obvious lack of rubbish bins everywhere.  I guess it's a security thing ?  Whatever the reason, it results in a lot of rubbish all over the place and people place their rubbish in small plastic bags straigh onto the street.  On the way back to our hotel we stopped for a beer at a small pub off Bow Place.  I had a 'Doom Bar' and Alison had a 'Proper Job' :)  Mine was average so didn't really take much notice of the details but Alison's was a delicious IPA with nice bitterness and an slight grapefruit after taste.
 

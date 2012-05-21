@@ -6,15 +6,15 @@ h1. Time in Venice
 
 Ahh Venice, what a wonderfully romantic (and chaotic) destination!  We arrived by train from Florence and then had to catch a ferry to our hotel, Hotel Rialto located near the most famous bridge in Venice - Ponte Rialto.  The ferry was pretty dull except for the precision driving of all the boat owners as the amount of boats going up and down the Grande Canal was beyond safe.  As well as ferries, leisure boats and water taxis, there's the gondalas as well!  We arrived at our hotel around 1 PM and it was frantic.  It took what seemed a lifetime to reach the hotel front door from the ferry stop (around 20 metres) as the number of people was just phenomenal.  We checked in and made our way through the crazy alleys into our room which was in a building completely separate from the hotel.  We weren't sure how this was going to work out, but the room was okay apart from there being no hot water.  We then swapped rooms (to a bigger room!) to a different part of the hotel and got ready to head out and about.  The canals and alleys are really spooky as they are so quiet and hidden from the sun.  We grabbed a bite to eat overlooking the Grande Canal and a bunch of gondala's and lost track of time.  Off we headed, wandering aimlessly without a map :)  We checked out some mask shops and quite a few potential places to eat before winding our way back to our hotel for dinner.  We'd booked a table at the restaurant at our hotel as Alison thought it looked nice.
 
-p(image). !/attachments/venice/DSC_0229_thumb_500.JPG(Gondalas on the Grande Canal)!:/attachments/venice/DSC_0229_thumb_800.JPG
+cbimage. venice||DSC_0229_thumb_500.jpg|DSC_0229_thumb_800.jpg|Gondalas on the Grande Canal
 
 <!-- ~~fold~~ -->
 
-p(image). !/attachments/venice/DSC_0231_thumb_500.JPG(Traffic on the Grande Canal under the Ponte Rialto)!:/attachments/venice/DSC_0231_thumb_800.JPG
+cbimage. venice||DSC_0231_thumb_500.jpg|DSC_0231_thumb_800.jpg|Traffic on the Grande Canal under the Ponte Rialto
 
-p(image). !/attachments/venice/DSC_0236_thumb_500.JPG(Alison on the Ponte Rialto overlooking the Grande Canal)!:/attachments/venice/DSC_0236_thumb_800.JPG
+cbimage. venice||DSC_0236_thumb_500.jpg|DSC_0236_thumb_800.jpg|Alison on the Ponte Rialto overlooking the Grande Canal
 
-p(image). !/attachments/venice/IMG_1458_thumb_500.JPG(One of the many mask shops in Venice)!:/attachments/venice/IMG_1458_thumb_800.JPG
+cbimage. venice||IMG_1458_thumb_500.jpg|IMG_1458_thumb_800.jpg|One of the many mask shops in Venice
 
 Dinner was okay but not fantastic.  We failed to follow the rules of eating from what we have observed so far -
 
@@ -26,25 +26,25 @@ The highlight of the dinner was not the food, but the arrival of a fancy speedbo
 
 After dinner we wandered around some more and commented to each other how romantic Venice is, more so than any other place we've been so far.  Awwww :)  There's a certain something special about the place, once you rid yourself of the crowds and chaos..  Off to bed to prep for another big day.
 
-p(image). !/attachments/venice/DSC_0242_thumb_500.JPG(Paper religious figure on door in canal)!:/attachments/venice/DSC_0242_thumb_800.JPG
+cbimage. venice||DSC_0242_thumb_500.jpg|DSC_0242_thumb_800.jpg|Paper religious figure on door in canal
 
-p(image). !/attachments/venice/DSC_0245_thumb_500.JPG(View of the Ponte Rialto at night)!:/attachments/venice/DSC_0245_thumb_800.JPG
+cbimage. venice||DSC_0245_thumb_500.jpg|DSC_0245_thumb_800.jpg|View of the Ponte Rialto at night
 
 We woke to see it had been raining overnight but had stopped which was good.  We had a quick breakky before venturing out to see "Piazza San Marco":http://en.wikipedia.org/wiki/Piazza_San_Marco and just more of the alleys and streets.  We made it to Piazza San Marco and managed to take a few photos before it bucketed down.  People scurried to find shelter, something there isn't a huge amount of as Piazza San Marco is a big open space.  It was a bit of a downer to be honest as not only was it raining heavily, the temperature dropped as well :(  After waiting and waiting for the rain to dissipate we decided to make a break for it - bad move.  I refused to get under the umbrella that Alison intelligently picked up at the hotel so I was very wet.  My refusal to get under the umbrella stems from the annoyance I feel when walking down the street in Melbourne, people bashing them into you, poking you in the face - ARGHH!  If it's really raining hard, fair enough, but some people seriously need to deal with a bit of rain...  
 
-p(image). !/attachments/venice/DSC_0269_thumb_500.JPG(Alison proudly showing off her umbrella moves)!:/attachments/venice/DSC_0269_thumb_800.JPG
+cbimage. venice||DSC_0269_thumb_500.jpg|DSC_0269_thumb_800.jpg|Alison proudly showing off her umbrella moves
 
 Anyway, we thought we'd head back to our hotel to wait out the rain but found ourselves lost.  Venice is like a maze with 400 odd canals and countless bridges.  Streets and alleys are narrow and hard to see unless you're on the right angle which makes things even more difficult.  With a soggy and crappy tourist map and Alison's iPhone struggling to locate us, we were officially lost in Venice.  We were so frazzled we even walked the same path a few times without even realising.  We had some lunch in the hope it might lift our spirits (and maybe the rain would stop) but it didn't at all, in fact it made things worse thanks to a rude waitress and amused regulars.  Finally, after almost an hour and a half we found our way back to the hotel.  We were both cranky and snappy, not a good look.  We dried off and decided we should sleep it off in the hope the weather and our moods would improve.  We awoke a few hours later, both rain and moods cured!  We thought we should make the most of the time we had left and grab a gondala tour.  We didn't have to walk very far to find one as they're everywhere.  We discussed with our guide the tour we'd take and the cost before departing.  The cheapest tour was 100 &euro; and lasted about 30 minutes.  If you do the math, that's a pretty handsome salary!  Our guide was really nice and gave us a history of Venice and all the canals.  We somehow managed to score what appeared to be the best gondala and the best guide as other gondala guides did not speak a word!  How lucky were we!?  It was over before it began but it was worth every cent.  We gingerly hopped off the gondala and headed for a place we'd spotted the day before, for dinner.
 
-p(image). !/attachments/venice/DSC_0248_thumb_500.JPG(Piazza San Marco)!:/attachments/venice/DSC_0248_thumb_800.JPG
+cbimage. venice||DSC_0248_thumb_500.jpg|DSC_0248_thumb_800.jpg|Piazza San Marco
 
-p(image). !/attachments/venice/DSC_0253_thumb_500.JPG(Our view of the Grande Canal aboard our gondala)!:/attachments/venice/DSC_0253_thumb_800.JPG
+cbimage. venice||DSC_0253_thumb_500.jpg|DSC_0253_thumb_800.jpg|Our view of the Grande Canal aboard our gondala
 
-p(image). !/attachments/venice/DSC_0259_thumb_500.JPG(Our buff guide)!:/attachments/venice/DSC_0259_thumb_800.JPG
+cbimage. venice||DSC_0259_thumb_500.jpg|DSC_0259_thumb_800.jpg|Our buff guide
 
-p(image). !/attachments/venice/DSC_0260_thumb_500.JPG(View of the Ponte Rialto from our gondala)!:/attachments/venice/DSC_0260_thumb_800.JPG
+cbimage. venice||DSC_0260_thumb_500.jpg|DSC_0260_thumb_800.jpg|View of the Ponte Rialto from our gondala
 
-p(image). !/attachments/venice/DSC_0265_thumb_500.JPG(Our gondala in the line up)!:/attachments/venice/DSC_0265_thumb_800.JPG
+cbimage. venice||DSC_0265_thumb_500.jpg|DSC_0265_thumb_800.jpg|Our gondala in the line up
 
 Dinner was amazing, the best meal so far and after a bit of an up and down day, it ended on the best possible note.  The gondala ride really put things into perspective and gave us an everlasting impression of Venice and it's beauty.
 

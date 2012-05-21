@@ -7,7 +7,7 @@ h1. Arrived in London
 
 After our 13 and a half hour flight from Singapore we finally arrived in London and were corralled like cows into Custom and Immigration where there were eight rows deep of people waiting to be 'processed'.  After being 'processed' we decided we'd try out public transport instead of a taxi cab for our trip from Heathrow to Marble Palace.  In comparison to Melbourne public transport, both trains and train stations were better maintained with less rubbish and graffiti.  Quite a few rowdy Spanish soccer fans got on at various stations which was both amusing and annoying because they were enjoying beer ;)  The trains were quite different to Melbourne's, most notable was the overall smaller size both length and internal size.  There was however room specifically for suitcases which I was impressed with.  We saw quite a few famous stops including Hammersmith, Hyde Park Corner, Piccadilly Circus and Marble Arch (where we are right now).
 
-p(image). !/attachments/london/DSC_0002_thumb_500.JPG(The Cumberland)!:/attachments/london/DSC_0002_thumb_800.JPG
+cbimage. london|1|DSC_0002_thumb_500.jpg|DSC_0002_thumb_800.jpg|The Cumberland
 
 <!-- ~~fold~~ -->
 

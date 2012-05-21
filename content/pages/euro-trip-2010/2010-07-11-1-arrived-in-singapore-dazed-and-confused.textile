@@ -7,7 +7,7 @@ h1. Arrived in Singapore dazed and confused
 
 After seven and a half hours, we arrived in Singapore tired having struggled to sleep.  We managed to score seats near the emergency exit but it didn't help our sleeplessness.  Maybe it was the excitement of the trip or the nerve calming beers in Melbourne, who can say!?  The flight was good with very little turbulence.  The pre-flight 'safety video' was interesting with very little information given and no demonstrations by the air hostesses.  Strange!  Alison commented how attractive and glamorous the hostesses were to which I cautiously agreed with ;)
 
-p(image). !/attachments/singapore/DSC_0004_thumb_500.JPG(Singapore airport, Terminal 3)!:/attachments/singapore/DSC_0004_thumb_800.JPG
+cbimage. singapore||DSC_0004_thumb_500.jpg|DSC_0004_thumb_800.jpg|Singapore airport, Terminal 3
 
 <!-- ~~fold~~ -->
 

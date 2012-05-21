@@ -1,6 +1,6 @@
 %h1 Home
 
-- articles = Nesta::Page.find_articles.paginate(:page => params[:page], :per_page => 5)
+- articles = Nesta::Page.find_articles.reject { |x| x.metadata('home page') == 'false' }.paginate(:page => params[:page], :per_page => 5)
 
 %section.articles= article_summaries(articles)
 

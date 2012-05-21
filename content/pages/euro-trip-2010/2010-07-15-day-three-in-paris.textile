@@ -6,64 +6,64 @@ h1. Day three in Paris
 
 Another night of sirens and chaos, I guess it's something you get used to!  Today we set out on L'Open Tour, similar to the London hop-on, hop-off.  We took off near Notre Dame Cathedral and headed towards the Champs Elysee, a long and very busy road that leads up to the Arc de Triomphe.  Below is a photo of an Egyptian obelisk that is near the the start of the Champs Elysee that was a gift from the Egyptian government.  The machinery around it is there to remove the temporary seating that was put in place for the parade.
 
-p(image). !/attachments/paris/DSC_0285_thumb_500.JPG(Egyptian obelisk, a gift from Egypt)!:/attachments/paris/DSC_0285_thumb_800.JPG
+cbimage. paris|3|DSC_0285_thumb_500.jpg|DSC_0285_thumb_800.jpg|Egyptian obelisk, a gift from Egypt
 
 <!-- ~~fold~~ -->
 
 Because of the Bastille Day celebrations there were literally hundreds of French flags up along the Champs Elysee and also hundreds of raised seating to allow people to get a great view of the parade.  The Champs Elysee is a crazy busy road with four lanes going in each direction.  We witnessed more crazy driving but no raised tempers which is truly amazing considering the amount of zig-zagging scooters get away with.  French people are for more tolerant on the roads than Australians despite their traffic conditions being much worse than ours.
 
-p(image). !/attachments/paris/DSC_0295_thumb_500.JPG(Champs Elysee)!:/attachments/paris/DSC_0295_thumb_800.JPG
+cbimage. paris|3|DSC_0295_thumb_500.jpg|DSC_0295_thumb_800.jpg|Champs Elysee
 
-p(image). !/attachments/paris/DSC_0300_thumb_500.JPG(Champs Elysee)!:/attachments/paris/DSC_0300_thumb_800.JPG
+cbimage. paris|3|DSC_0300_thumb_500.jpg|DSC_0300_thumb_800.jpg|Champs Elysee
 
-p(image). !/attachments/paris/DSC_0301_thumb_500.JPG(Louis Vuitton)!:/attachments/paris/DSC_0301_thumb_800.JPG
+cbimage. paris|3|DSC_0301_thumb_500.jpg|DSC_0301_thumb_800.jpg|Louis Vuitton
 
 At the end of the Champs Elysee is the Arc de Triomphe with a giant French flag inside.  I'm not sure if the flag is there all the time or not, but it looked amazing and really added to the spectacle.
 
-p(image). !/attachments/paris/DSC_0303_thumb_500.JPG(Arc de Triomphe)!:/attachments/paris/DSC_0303_thumb_800.JPG
+cbimage. paris|3|DSC_0303_thumb_500.jpg|DSC_0303_thumb_800.jpg|Arc de Triomphe
 
-p(image). !/attachments/paris/DSC_0305_thumb_500.JPG(Arc de Triomphe)!:/attachments/paris/DSC_0305_thumb_800.JPG
+cbimage. paris|3|DSC_0305_thumb_500.jpg|DSC_0305_thumb_800.jpg|Arc de Triomphe
 
-p(image). !/attachments/paris/DSC_0309_thumb_500.JPG(Arc de Triomphe)!:/attachments/paris/DSC_0309_thumb_800.JPG
+cbimage. paris|3|DSC_0309_thumb_500.jpg|DSC_0309_thumb_800.jpg|Arc de Triomphe
 
-p(image). !/attachments/paris/DSC_0311_thumb_500.JPG(Arc de Triomphe)!:/attachments/paris/DSC_0311_thumb_800.JPG
+cbimage. paris|3|DSC_0311_thumb_500.jpg|DSC_0311_thumb_800.jpg|Arc de Triomphe
 
 Past the Arc de Triomphe and around a few streets was the Eiffel Tower.  You can see it from all around but I held off on the photos until we were reasonably close.  Like most things we've seen so far, each and every tourist attraction has been far more impressive and inspiring up close.  I had a touch of "but I've already seen pictures..." which was rather stupid in hind site.  We circled around the Eiffel Tower and saw it from all around and then finally stopped at the main tourist exit and jumped off.  We were immediately accosted by Romanian Gypsies and people selling all sorts of things from water through to wearable French flag hats.  Once we'd made it past the line to get tickets for the Eiffel tower and then the line to get up the tower (both as long as each other!) we made our way onto the grass were we took a moment to reflect on the metal beast in front of us.  It truly is a magnificent structure with the main legs being the most interesting from my perspective.  There are three viewing platforms with the first being only (only!) 286 stairs up.  We decided the view was better from the ground :)
 
-p(image). !/attachments/paris/DSC_0321_thumb_500.JPG(Eiffel Tower)!:/attachments/paris/DSC_0321_thumb_800.JPG
+cbimage. paris|3|DSC_0321_thumb_500.jpg|DSC_0321_thumb_800.jpg|Eiffel Tower
 
-p(image). !/attachments/paris/DSC_0331_thumb_500.JPG(Eiffel Tower)!:/attachments/paris/DSC_0331_thumb_800.JPG
+cbimage. paris|3|DSC_0331_thumb_500.jpg|DSC_0331_thumb_800.jpg|Eiffel Tower
 
-p(image). !/attachments/paris/DSC_0338_thumb_500.JPG(Eiffel Tower with posers)!:/attachments/paris/DSC_0338_thumb_800.JPG
+cbimage. paris|3|DSC_0338_thumb_500.jpg|DSC_0338_thumb_800.jpg|Eiffel Tower with posers
 
-p(image). !/attachments/paris/DSC_0339_thumb_500.JPG(Eiffel Tower)!:/attachments/paris/DSC_0339_thumb_800.JPG
+cbimage. paris|3|DSC_0339_thumb_500.jpg|DSC_0339_thumb_800.jpg|Eiffel Tower
 
-p(image). !/attachments/paris/DSC_0340_thumb_500.JPG(Eiffel Tower)!:/attachments/paris/DSC_0340_thumb_800.JPG
+cbimage. paris|3|DSC_0340_thumb_500.jpg|DSC_0340_thumb_800.jpg|Eiffel Tower
  
 We jumped back on the tour bus and headed for Montmarte.  We zoomed past the Moulin Rouge and many other places where one can indulge in most imaginable thoughts :)
 
-p(image). !/attachments/paris/DSC_0355_thumb_500.JPG(Moulin Rouge)!:/attachments/paris/DSC_0355_thumb_800.JPG
+cbimage. paris|3|DSC_0355_thumb_500.jpg|DSC_0355_thumb_800.jpg|Moulin Rouge
 
 Our destination was Sacre Coeur, a church that overlooks Montmarte.  We stopped off for a bite to eat, succumbing to a baguette and french fries with some Perrier.  Cliche French ;)  Just as we were about to leave, our waiter complimented Alison on being a very beautiful woman in a mix of french and English and then wandered off.  Amusing and odd :)  We headed up the steps to the very top where the church sits and were greeted with a mass of people.  Like most of the churches we've seen in Paris, they're not in the best condition with lots of visible degradation.
 
-p(image). !/attachments/paris/DSC_0359_thumb_500.JPG(View of Paris from Sacre Coeur)!:/attachments/paris/DSC_0355_thumb_800.JPG
+cbimage. paris|3|DSC_0359_thumb_500.jpg|DSC_0355_thumb_800.jpg|View of Paris from Sacre Coeur
 
-p(image). !/attachments/paris/DSC_0361_thumb_500.JPG(Sacre Coeur)!:/attachments/paris/DSC_0361_thumb_800.JPG
+cbimage. paris|3|DSC_0361_thumb_500.jpg|DSC_0361_thumb_800.jpg|Sacre Coeur
 
-p(image). !/attachments/paris/DSC_0366_thumb_500.JPG(Sacre Coeur)!:/attachments/paris/DSC_0366_thumb_800.JPG
+cbimage. paris|3|DSC_0366_thumb_500.jpg|DSC_0366_thumb_800.jpg|Sacre Coeur
 
-p(image). !/attachments/paris/DSC_0368_thumb_500.JPG(Sacre Coeur)!:/attachments/paris/DSC_0368_thumb_800.JPG
+cbimage. paris|3|DSC_0368_thumb_500.jpg|DSC_0368_thumb_800.jpg|Sacre Coeur
 
-p(image). !/attachments/paris/DSC_0373_thumb_500.JPG(Sacre Coeur)!:/attachments/paris/DSC_0373_thumb_800.JPG
+cbimage. paris|3|DSC_0373_thumb_500.jpg|DSC_0373_thumb_800.jpg|Sacre Coeur
 
-p(image). !/attachments/paris/DSC_0378_thumb_500.JPG(Typical shop near Sacre Coeur)!:/attachments/paris/DSC_0378_thumb_800.JPG
+cbimage. paris|3|DSC_0378_thumb_500.jpg|DSC_0378_thumb_800.jpg|Typical shop near Sacre Coeur
 
 On the way back to our hotel from the tour, we stopped in at a L'occitaine store and Alison found her favourite perfume which is no longer available in Australia which was a great score!  I popped into a pastry shop next door and bought a large Heineken right over the counter.  It seemed to be quite okay to drink it in the street as plenty of other people were, but I decided against it and waited until I returned back to our hotel.
 
-p(image). !/attachments/paris/IMG_1116_thumb_500.JPG(Happy poser)!:/attachments/paris/IMG_1116_thumb_800.JPG
+cbimage. paris|3|IMG_1116_thumb_500.jpg|IMG_1116_thumb_800.jpg|Happy poser
 
 Last night we had Japanese which was kind of odd being in Paris, but it was quick and relatively cheap which we were both in need of :)  We had a 400ml Asahi (which was brewed in the Czech Republic, not Japan incidentally) which we haven't seen anywhere else which was pretty cool.
 
-p(image). !/attachments/paris/IMG_1119_thumb_500.JPG(Asahi, large)!:/attachments/paris/DSC_1119_thumb_800.JPG
+cbimage. paris|3|IMG_1119_thumb_500.jpg|DSC_1119_thumb_800.jpg|Asahi, large
 
 Today we are heading to Amsterdam which should be a nice change of pace.  We don't have anything planned at this stage except to visit a coffee shop which will be interesting to say the least ;)

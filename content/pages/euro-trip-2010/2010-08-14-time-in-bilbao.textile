@@ -9,4 +9,4 @@ h1. Time in Bilbao
 - most of bilbao closed for summer
 - bad weather kept us inside again
 
-p(image). !/attachments/bilbao/DSC_0066_thumb_500.JPG(Belts the black)!:/attachments/bilbao/DSC_0066_thumb_800.JPG
+cbimage. bilbao||DSC_0066_thumb_500.jpg|DSC_0066_thumb_800.jpg|Belts the black

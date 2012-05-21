@@ -6,30 +6,30 @@ h1. Day one in Prague
 
 What a day!  The temperature reached 38 &deg; Celsius and the humidity was also very high, but despite all of that we pretty much covered the main tourist attractions in one day!  We started in the Old Town where we were staying and headed roughly towards Prague Castle.
 
-p(image). !/attachments/prague/DSC_0505_thumb_500.JPG(Prague square)!:/attachments/prague/DSC_0505_thumb_800.JPG
+cbimage. prague|2|DSC_0505_thumb_500.jpg|DSC_0505_thumb_800.jpg|Prague square
 
-<!-- ~~fold -->
+<!-- ~~fold~~ -->
 
 Prague is definitely the highlight for me so far.  It's just so beautiful with all the amazing buildings that are so old but so alive.  All the streets are cobbled stones with not a hint of bitumen or concrete anywhere in the Old Town.  I'd definitely love to return one day to see more as one day was nowhere near enough to soak up what Prague has to offer.
 
 Words really cannot express how wonderful Prague really was so I'll let the photos try telling the story :)
 
-p(image). !/attachments/prague/DSC_0502_thumb_500.JPG(Astronomical clock tower)!:/attachments/prague/DSC_0502_thumb_800.JPG
+cbimage. prague|2|DSC_0502_thumb_500.jpg|DSC_0502_thumb_800.jpg|Astronomical clock tower
 
-p(image). !/attachments/prague/DSC_0508_thumb_500.JPG(Astronomical clock close up)!:/attachments/prague/DSC_0508_thumb_800.JPG
+cbimage. prague|2|DSC_0508_thumb_500.jpg|DSC_0508_thumb_800.jpg|Astronomical clock close up
 
-p(image). !/attachments/prague/DSC_0521_thumb_500.JPG(Tyn church from atop clock tower)!:/attachments/prague/DSC_0521_thumb_800.JPG
+cbimage. prague|2|DSC_0521_thumb_500.jpg|DSC_0521_thumb_800.jpg|Tyn church from atop clock tower
 
-p(image). !/attachments/prague/DSC_0523_thumb_500.JPG(View of Old Town from atop clock tower)!:/attachments/prague/DSC_0523_thumb_800.JPG
+cbimage. prague|2|DSC_0523_thumb_500.jpg|DSC_0523_thumb_800.jpg|View of Old Town from atop clock tower
 
-p(image). !/attachments/prague/DSC_0549_thumb_500.JPG(Tower at beginning of Charles bridge)!:/attachments/prague/DSC_0549_thumb_800.JPG
+cbimage. prague|2|DSC_0549_thumb_500.jpg|DSC_0549_thumb_800.jpg|Tower at beginning of Charles bridge
 
-p(image). !/attachments/prague/IMG_1284_thumb_500.JPG(View from Charles bridge)!:/attachments/prague/IMG_1284_thumb_800.JPG
+cbimage. prague|2|IMG_1284_thumb_500.jpg|IMG_1284_thumb_800.jpg|View from Charles bridge
 
-p(image). !/attachments/prague/DSC_0555_thumb_500.JPG(Prague Castle in the distance)!:/attachments/prague/DSC_0555_thumb_800.JPG
+cbimage. prague|2|DSC_0555_thumb_500.jpg|DSC_0555_thumb_800.jpg|Prague Castle in the distance
 
-p(image). !/attachments/prague/DSC_0596_thumb_500.JPG(St Nicolaus church)!:/attachments/prague/DSC_0596_thumb_800.JPG
+cbimage. prague|2|DSC_0596_thumb_500.jpg|DSC_0596_thumb_800.jpg|St Nicolaus church
 
-p(image). !/attachments/prague/IMG_1298_thumb_500.JPG(Inside St. Vitus' Cathedral within Prague Castle)!:/attachments/prague/IMG_1298_thumb_800.JPG
+cbimage. prague|2|IMG_1298_thumb_500.jpg|IMG_1298_thumb_800.jpg|Inside St. Vitus' Cathedral within Prague Castle
 
-p(image). !/attachments/prague/DSC_0662_thumb_500.JPG(View from Prague Castle)!:/attachments/prague/DSC_0662_thumb_800.JPG
+cbimage. prague|2|DSC_0662_thumb_500.jpg|DSC_0662_thumb_800.jpg|View from Prague Castle

@@ -6,19 +6,19 @@ h1. Arrived in Amsterdam
 
 After a pleasant two and a half hour train ride from Paris (first class, woohoo!) we arrived in Amsterdam.  We found our way out of the train station and onto the street to grab a cab.  While waiting in line for the cab we were pleasantly surprised to asked by the taxi rank man in English where we'd like to go.  We said the A-Train hotel which made him laugh as the hotel was less than 100 metres away and was quite visible once he pointed it out.  The amount of bicycles at the train station was astounding.  What looked like a multi story car parking complex was in fact specifically for bicycles.  Everyone seems to get around on their bike!  On most roads there is a lane for cars, then a curb followed by a lane for bicycles only and then a footpath for pedestrians.  It's brilliantly thought out...  Even waiting at the lights reveals more thought and planning.  Right next to the 'do not cross' red man is a count down timer which counts down from 30 so you know exactly how long you have before you can cross.  Amazing!
 
-p(image). !/attachments/amsterdam/DSC_0398_thumb_500.JPG(Amsterdam Train station)!:/attachments/amsterdam/DSC_0398_thumb_800.JPG
+cbimage. amsterdam|1|DSC_0398_thumb_500.jpg|DSC_0398_thumb_800.jpg|Amsterdam Train station
 
 <!-- ~~fold~~ -->
 
-p(image). !/attachments/amsterdam/DSC_0397_thumb_500.JPG(Bikes, bikes BIKES)!:/attachments/amsterdam/DSC_0397_thumb_800.JPG
+cbimage. amsterdam|1|DSC_0397_thumb_500.jpg|DSC_0397_thumb_800.jpg|Bikes, bikes BIKES
 
-p(image). !/attachments/amsterdam/DSC_0388_thumb_500.JPG(Bike lane)!:/attachments/amsterdam/DSC_0388_thumb_800.JPG
+cbimage. amsterdam|1|DSC_0388_thumb_500.jpg|DSC_0388_thumb_800.jpg|Bike lane
 
-p(image). !/attachments/amsterdam/DSC_0389_thumb_500.JPG(Pedestrian count down)!:/attachments/amsterdam/DSC_0389_thumb_800.JPG
+cbimage. amsterdam|1|DSC_0389_thumb_500.jpg|DSC_0389_thumb_800.jpg|Pedestrian count down
 
 Our hotel is very well situated with the train station, cafes and pubs all around.  The hotel is train themed with all sort of photos, old luggage, model trains and pretty much anything else you can think of.  There's even a miniature track set into the floor.  It sounds like it's a bit too much, but it's pretty cool really :)
 
-p(image). !/attachments/amsterdam/DSC_0391_thumb_500.JPG(The A-train hotel, on the right)!:/attachments/amsterdam/DSC_0391_thumb_800.JPG
+cbimage. amsterdam|1|DSC_0391_thumb_500.jpg|DSC_0391_thumb_800.jpg|The A-train hotel, on the right
 
 We made our way to our room which is more like a cupboard than a room (it is really, really small), then we headed out and about to see the sights.  Within 20 metres we'd already walked past two pubs, a coffee shop and another coffee shop that specialised in selling seeds.  Crazy place this one!  We wandered a bit further along and noted a theme - coffee shop followed by a patisserie / bakery / ice-cream store.  Again and again you see the same cluster of shops!  The rules around coffee shops are quite unusual - they all sell varying amounts and types of marijuana but cannot by law sell alcohol or allow smoking of tobacco.  This sort of confusing rule making is reflected in other parts of Amsterdam which makes you think "hmm, I can do this activity that is illegal in most other parts of the world, but I cannot do this other activity which is perfectly acceptable everywhere else in the world?".  It brought a smile to our faces as it's just so funny how relaxed yet restricted things are here.
 
@@ -28,4 +28,4 @@ For dinner we initially ducked into "Barney's Uptown":http://www.barneys.biz/ fo
 
 Tomorrow we're hopefully off on a tour around Amsterdam either by bus or by boat.  Amsterdam has many canals running through the very heart of it which creates lots of small alleys and streets.  Lots of the buildings are on disturbing angles, presumably because of the unstable earth due to the amount of water running through the city.  Some of the buildings look like they could literally fall at any time with window sills completely askew and adjoining buildings completely detached from one another. 
 
-p(image). !/attachments/amsterdam/IMG_1132_thumb_500.JPG(Leaning building)!:/attachments/amsterdam/DSC_1132_thumb_800.JPG
+cbimage. amsterdam|1|IMG_1132_thumb_500.jpg|DSC_1132_thumb_800.jpg|Leaning building

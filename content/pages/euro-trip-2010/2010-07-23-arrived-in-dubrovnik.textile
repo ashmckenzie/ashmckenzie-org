@@ -6,16 +6,16 @@ h1. Arrived in Dubrovnik
 
 We took a plane from Prague to Dubrovnik which took a few a hours as we flew to Vienna in between.  Vienna airport was chaos as it's quite a hub for lots of connecting flights.  We almost missed our flight to Dubrovnik due to the number of people waiting to go through passport control but luckily the boarding was delayed so we could make it.  It was quite a stressful moment!  We arrived at our resort (Hotel Ariston) mid afternoon and got a quick taste of Dubrovnik Old City as we took a shuttle from the airport to Old City and then a cab onto our resort.  Old City was quite an eye opener with it's self contained ecosystem of restaurants, bars, post office and any other shop you could imagine all contained within the Old City walls.  Old City was very, very busy.  Dubrovnik is very popular with not only foreigners but is also popular for a lot of Europeans as it's only a few hours flight away and is so beautiful and contrasting.
 
-p(image). !/attachments/dubrovnik/IMG_1317_thumb_500.JPG(Fire station coming into Old City)!:/attachments/dubrovnik/IMG_1317_thumb_800.JPG
+cbimage. dubrovnik|1|IMG_1317_thumb_500.jpg|IMG_1317_thumb_800.jpg|Fire station coming into Old City
 
 <!-- ~~fold~~ -->
 
-p(image). !/attachments/dubrovnik/IMG_1319_thumb_500.JPG(Bullet marks on city wall from Old City siege)!:/attachments/dubrovnik/IMG_1319_thumb_800.JPG
+cbimage. dubrovnik|1|IMG_1319_thumb_500.jpg|IMG_1319_thumb_800.jpg|Bullet marks on city wall from Old City siege
 
 Our hotel was very nice, five stars in fact!  We didn't waste any time dumping our bags (literally) and making our way down to the restaurant which overlooks the ocean, the swimming pool and bar.  We were pretty hungry and thirsty (was almost 40 &deg; Celsius when we arrived) so plonked ourselves at the restaurant and did what is only natural when overlooking ocean in the hot sun - have a beer!  While waiting for our food we observed lots of interesting swimwear.  Of particular interest was the men's lycra "hot shorts".  Alison and I both agreed it wasn't a trend I'd be following anytime soon.  Quote of holiday thus far came with the hot shorts as inspiration from Alison - "There's nothing wrong with putting on a pair of pants to dinner".
 
-p(image). !/attachments/dubrovnik/DSC_0677_thumb_500.JPG(Preparing for dinner at resort restaurant)!:/attachments/dubrovnik/DSC_0677_thumb_800.JPG
+cbimage. dubrovnik|1|DSC_0677_thumb_500.jpg|DSC_0677_thumb_800.jpg|Preparing for dinner at resort restaurant
 
-p(image). !/attachments/dubrovnik/DSC_0679_thumb_500.JPG(View looking out from the resort restaurant)!:/attachments/dubrovnik/DSC_0679_thumb_800.JPG
+cbimage. dubrovnik|1|DSC_0679_thumb_500.jpg|DSC_0679_thumb_800.jpg|View looking out from the resort restaurant
 
-p(image). !/attachments/dubrovnik/DSC_0683_thumb_500.JPG(Alison enjoying a popular Croation beer, Ozujsko)!:/attachments/dubrovnik/DSC_0683_thumb_800.JPG
+cbimage. dubrovnik|1|DSC_0683_thumb_500.jpg|DSC_0683_thumb_800.jpg|Alison enjoying a popular Croation beer, Ozujsko

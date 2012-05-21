@@ -1,6 +1,7 @@
 source :rubygems
 
-gem 'nesta', :git => 'https://ashmckenzie@github.com/ashmckenzie/nesta.git'
+# gem 'nesta', :git => 'https://ashmckenzie@github.com/ashmckenzie/nesta.git'
+gem 'nesta', :path => '/Users/ash/Projects/nesta'
 gem 'nesta-plugin-page', :path => './nesta-plugin-page'
 gem 'nesta-plugin-redirect', :path => './nesta-plugin-redirect'
 gem 'nesta-plugin-foldable'

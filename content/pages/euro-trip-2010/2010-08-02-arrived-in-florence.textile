@@ -6,7 +6,7 @@ h1. Arrived in Florence
 
 Florence (or Firenze more correctly) was only a few hours train ride from Rome which was great as we only had two nights, so we needed to make the most of our time.  Our hotel was located directly beside the "Piazza del Duomo":http://en.wikipedia.org/wiki/Piazza_del_Duomo,_Florence and aptly named, Hotel Duomo :)  Check out the view from our window!
 
-p(image). !/attachments/florence/DSC_0212_thumb_500.JPG(View from our hotel - Hotel Duomo)!:/attachments/florence/DSC_0212_thumb_800.JPG
+cbimage. florence|1|DSC_0212_thumb_500.jpg|DSC_0212_thumb_800.jpg|View from our hotel - Hotel Duomo
 
 <!-- ~~fold~~ -->
 
@@ -14,9 +14,9 @@ We checked in around 1 PM or so and we were both really feeling the heat from th
 
 On the dinner hunt we walked around The Duomo, taking a few photos.  It's so massive there's no way you can easily take a single frame of the entire building.  Being a fan of the video game Assassin's Creed, I was really looking forward to seeing the inspiration for the game and how it looked in the flesh.  With all the amazing sights we've seen so far, some things don't seem all that exciting once you finally see them, but not in this case!  The Duomo made you feel dizzy looking up at it, exploring each angle...  One of the highlights for me, no doubt about that.  Making comparisons is difficult (and not a good idea) but this was definitely one of the most amazing buildings I've ever witnessed.  Hunger called, so we moved on..
 
-p(image). !/attachments/florence/DSC_0201_thumb_500.JPG(Front of The Duomo with Italian Police on the beat)!:/attachments/florence/DSC_0201_thumb_800.JPG
+cbimage. florence|1|DSC_0201_thumb_500.jpg|DSC_0201_thumb_800.jpg|Front of The Duomo with Italian Police on the beat
 
-p(image). !/attachments/florence/DSC_0204_thumb_500.JPG(Side view of The Duomo)!:/attachments/florence/DSC_0204_thumb_800.JPG
+cbimage. florence|1|DSC_0204_thumb_500.jpg|DSC_0204_thumb_800.jpg|Side view of The Duomo
 
 We had another cliche Italian dinner - tomato and mozzarella salad followed by pizza :)  The food, location (right beside The Duomo) and service were all fantastic which was exactly what we were craving after some average meals.  We haven't had any difficulties conversing / ordering our meals as English is well understood in all the places we've been so far which has been great.
 
