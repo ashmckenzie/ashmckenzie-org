@@ -6,23 +6,7 @@ include Sinatra::Toadhopper::Helpers
 
 CONFIG = YAML.load_file('./config/config.yml')
 
-require 'redcloth'
-
-module RedCloth::Formatters::HTML
-
-  def cbimage opts
-    group, qualifier, image, link, title = opts[:text].split(/\|/)
-    <<-EOS
-<p class="image">
-  <a href="/attachments/#{group}/#{link}" title="#{title}" rel="#{group}#{qualifier}">
-    <img src="/attachments/#{group}/#{image}" title="#{title}" alt="#{title}">
-    <span class="title">#{title}</span>
-  </a>
-</p>        
-EOS
-
-  end
-end
+Dir[File.join('config', 'initialisers', '*.rb')].each { |f| require "./#{f}" }
 
 module Nesta
 
@@ -36,8 +20,6 @@ module Nesta
 
     helpers WillPaginate::Sinatra::Helpers
 
-    # FIXME: move this out into a plugin
-    #
     error do
       set_common_variables
       post_error_to_airbrake!

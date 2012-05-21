@@ -33,8 +33,8 @@ require 'sinatra/toadhopper'
 require 'nesta/app'
 
 use Rack::Rewrite do
-  Nesta::Plugin::Redirect::Helpers::Redirect.pages_with_redirect.each do |page|
-    r301 page.metadata('redirect'), "/#{page.path}"
+  Nesta::Plugin::Redirect::Helpers::Redirect.pages.each do |r|
+    r301 r.old, r.new
   end
 end
 
