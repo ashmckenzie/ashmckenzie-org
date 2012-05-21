@@ -12,8 +12,11 @@ set :application, "Green Worm"
 set :repository, CONFIG['deploy']['repo']
 
 set :scm, :git
+set :scm_verbose, true
+
 set :deploy_to, "#{CONFIG['deploy']['base']}/#{CONFIG['app']['name']}"
-set :deploy_via, :copy
+set :deploy_via, :remote_cache
+
 set :keep_releases, 3
 set :use_sudo, false
 set :normalize_asset_timestamps, false

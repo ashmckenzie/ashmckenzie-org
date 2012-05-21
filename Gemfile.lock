@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:ashmckenzie/nesta.git
+  remote: https://ashmckenzie@github.com/ashmckenzie/nesta.git
   revision: dca61f93493f5acb05d92ffd106963f63708574e
   specs:
     nesta (0.9.13)
