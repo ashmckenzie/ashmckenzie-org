@@ -1,6 +1,7 @@
 Date: 15 July 2010 00:00:00
 Categories: euro-trip-2010
 Country: fr
+Redirect: /2010/07/15/day-three-in-paris
 
 h1. Day three in Paris
 

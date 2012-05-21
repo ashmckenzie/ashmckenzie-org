@@ -1,6 +1,7 @@
 Date: 3 August 2010 00:00:00
 Categories: euro-trip-2010
 Country: it
+Redirect: /2010/08/03/day-two-in-florence
 
 h1. Day one in Florence
 

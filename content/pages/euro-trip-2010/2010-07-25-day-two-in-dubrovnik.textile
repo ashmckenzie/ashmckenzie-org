@@ -1,6 +1,7 @@
 Date: 25 July 2010 00:00:00
 Categories: euro-trip-2010
 Country: hr
+Redirect: /2010/07/25/day-two-in-dubrovnik
 
 h1. Day two in Dubrovnik
 

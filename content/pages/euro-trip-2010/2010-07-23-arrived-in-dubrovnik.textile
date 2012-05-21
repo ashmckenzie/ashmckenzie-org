@@ -1,6 +1,7 @@
 Date: 23 July 2010 00:00:00
 Categories: euro-trip-2010
 Country: hr
+Redirect: /2010/07/23/arrived-in-dubrovnik
 
 h1. Arrived in Dubrovnik
 

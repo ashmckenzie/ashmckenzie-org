@@ -1,6 +1,7 @@
 Date: 21 July 2010 00:00:00
 Categories: euro-trip-2010
 Country: cz
+Redirect: /2010/07/21/arrived-in-prague
 
 h1. Arrived in Prague
 

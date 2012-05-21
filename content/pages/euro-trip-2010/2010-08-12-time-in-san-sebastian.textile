@@ -1,6 +1,7 @@
 Date: 12 August 2010 00:00:00
 Categories: euro-trip-2010
 Country: es
+Redirect: /2010/08/12/time-in-san-sebastian
 
 h1. Time in San Sebastian
 

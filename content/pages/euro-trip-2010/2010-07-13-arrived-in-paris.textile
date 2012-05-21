@@ -1,6 +1,7 @@
 Date: 13 July 2010 00:00:00
 Categories: euro-trip-2010
 Country: fr
+Redirect: /2010/07/13/arrived-in-paris
 
 h1. Arrived in Paris
 

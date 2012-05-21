@@ -1,6 +1,7 @@
 Date: 27 July 2010 00:00:00
 Categories: euro-trip-2010
 Country: gr
+Redirect: /2010/07/27/arrived-in-athens
 
 h1. Arrived in Athens
 

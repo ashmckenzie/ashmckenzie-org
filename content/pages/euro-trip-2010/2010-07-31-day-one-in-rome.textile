@@ -1,6 +1,7 @@
 Date: 31 July 2010 00:00:00
 Categories: euro-trip-2010
 Country: it
+Redirect: /2010/07/31/day-one-in-rome
 
 h1. Day one in Rome
 

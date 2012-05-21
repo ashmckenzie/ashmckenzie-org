@@ -1,6 +1,7 @@
 Date: 20 July 2010 00:00:00
 Categories: euro-trip-2010
 Country: de
+Redirect: /2010/07/20/day-two-in-berlin
 
 h1. Day two in Berlin
 

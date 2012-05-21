@@ -1,6 +1,7 @@
 Date: 14 August 2010 00:00:00
 Categories: euro-trip-2010
 Country: es
+Redirect: /2010/08/14/time-in-bilbao
 Flags: draft
 
 h1. Time in Bilbao

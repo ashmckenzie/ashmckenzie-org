@@ -1,6 +1,7 @@
 Date: 1 August 2010 00:00:00
 Categories: euro-trip-2010
 Country: it
+Redirect: /2010/08/01/day-two-in-rome
 
 h1. Day two in Rome
 

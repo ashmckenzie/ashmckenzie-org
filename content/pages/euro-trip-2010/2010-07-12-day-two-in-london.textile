@@ -1,6 +1,7 @@
 Date: 12 July 2010 00:00:00
 Categories: euro-trip-2010
 Country: gb
+Redirect: /2010/07/12/day-two-in-london
 
 h1. Day two in London
 
