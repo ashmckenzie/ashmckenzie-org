@@ -29,7 +29,6 @@ end
 
 require 'sinatra'
 require 'sinatra/toadhopper'
-
 require 'nesta/app'
 
 use Rack::Rewrite do

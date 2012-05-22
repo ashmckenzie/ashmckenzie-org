@@ -1,0 +1,28 @@
+Date: 22 May 2012 00:00:00
+Categories: ruby
+
+h1. Autoload with ActiveSupport
+
+Today I came across a really neat way of saving code (and time) when requiring
+libraries.
+
+Instead of
+
+<pre data-language="ruby">
+  require './lib/cat'
+  require './lib/dog'
+  require './lib/bird'
+
+  Cat.new.attack(Dog.new) 
+  Bird.new.swoop(Cat.new)
+</pre>
+
+Try this!  The only catch is you must have ActiveSupport installed.
+
+<pre data-language="ruby">
+  require 'active_support/dependencies'
+  ActiveSupport::Dependencies.autoload_paths << File.expand_path('../lib', __FILE__)
+
+  Cat.new.attack(Dog.new)
+  Bird.new.swoop(Cat.new)
+</pre>
