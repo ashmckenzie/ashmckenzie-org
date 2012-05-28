@@ -11,6 +11,8 @@ gem 'mail'
 gem 'coderay'
 gem 'rack-rewrite', '~> 1.2.1'
 gem 'will_paginate', '~> 3.0'
+# gem 'activesupport', '~> 3.2.3'
+gem 'giantbomb'
 
 group :development do
   gem 'thin'

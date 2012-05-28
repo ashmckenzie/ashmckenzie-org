@@ -37,7 +37,12 @@ GEM
     coderay (1.0.6)
     daemons (1.1.8)
     eventmachine (0.12.10)
+    giantbomb (0.5.0)
+      httparty
     haml (3.1.6)
+    httparty (0.8.3)
+      multi_json (~> 1.0)
+      multi_xml
     i18n (0.6.0)
     mail (2.4.4)
       i18n (>= 0.4.0)
@@ -45,6 +50,8 @@ GEM
       treetop (~> 1.4.8)
     method_source (0.7.1)
     mime-types (1.18)
+    multi_json (1.3.5)
+    multi_xml (0.5.1)
     nesta-plugin-foldable (0.0.4)
       nesta (>= 0.9.13)
     polyglot (0.3.3)
@@ -88,6 +95,7 @@ PLATFORMS
 DEPENDENCIES
   awesome_print
   coderay
+  giantbomb
   mail
   nesta!
   nesta-plugin-foldable

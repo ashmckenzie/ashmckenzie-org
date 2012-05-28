@@ -1,0 +1,48 @@
+Date: 22 May 2012 00:00:01
+Categories: ruby
+Flags: draft
+
+h1. Nesta CMS with customised pagination
+
+I decided to configure "will_paginate":https://github.com/mislav/will_paginate for pagination as it can paginate all sorts of thing including standard Ruby Array's which is exactly what I wanted.  I read a few articles on how to customise will_paginate (the post by "thewebfellas":http://thewebfellas.com/blog/2010/8/22/revisited-roll-your-own-pagination-links-with-will_paginate-and-rails-3 was especially helpful) but none of the examples covered what I wanted to customise.
+
+I wanted to change the default will_paginate behaviour of generating URL's like:
+
+<pre>
+  /posts?page=2
+</pre>
+
+and display them instead as:
+
+<pre>
+  /posts/page/2
+</pre>
+
+Fortunately it's not very difficult to achieve due in part to the well structured design of will_paginate.  The outline to achieve the customisation is:
+
+# Create a custom @LinkRenderer@
+# Override methods to your liking
+# Tell the @will_paginate@ helper which renderer to use
+
+<pre data-language="ruby">
+  class PaginationNicePathsRenderer < WillPaginate::Sinatra::LinkRenderer
+    def url(page)
+      super.gsub(Regexp.new(/\?(#{@options[:param_name]})=(\d+)/), '/\1/\2')
+    end
+  end  
+</pre>
+
+Now, after going through the guts of will_paginate and coming up with an implementation that worked, I discovered I really didn't need to to go this far and could achieve what I wanted by just doing a regex match and replace on the return link from the @will_paginate@ helper call.
+
+<pre data-language="ruby">
+  page_param_name = :page
+
+  will_paginate(
+    items, 
+    previous_label: 'Newer', 
+    next_label: 'Older',
+    param_name: page_param_name
+  ).gsub(Regexp.new(/(?:\?|&)(#{page_param_name})=(\d+)/), '/\1/\2')
+</pre>
+
+Oh well :)

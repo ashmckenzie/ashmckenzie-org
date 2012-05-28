@@ -6,7 +6,6 @@ $inner_width: 760px
 
 html
   background:
-    // color: $base_bg_color 
     image: url('/ashmckenzie/images/bg_speckled.png')
 
 body
@@ -108,6 +107,7 @@ article
   color: #444
   h1
     font-size: 2.4em
+    line-height: 42px
   a
     color: #444
     text-decoration: none
@@ -134,10 +134,10 @@ article
       font-size: 0.9em
       margin-bottom: 0
   &.draft h1
-    &::after
+    &::before
       content: url(/ashmckenzie/images/draft.png) no-repeat 0 0
       position: relative
-      left: 8px
+      right: 8px
 
 div.small-br
   height: 8px
@@ -211,3 +211,6 @@ nav
     display: none
   #content article > h1
     display: none
+
+pre.rainbow
+  padding-bottom: 20px
