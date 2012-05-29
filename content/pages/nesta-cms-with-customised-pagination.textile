@@ -3,7 +3,7 @@ Categories: ruby
 
 h1. Nesta CMS with customised pagination
 
-I decided to configure "will_paginate":https://github.com/mislav/will_paginate for pagination as it can paginate all sorts of thing including standard Ruby Array's which is exactly what I wanted.  I read a few articles on how to customise will_paginate (the post by "thewebfellas":http://thewebfellas.com/blog/2010/8/22/revisited-roll-your-own-pagination-links-with-will_paginate-and-rails-3 was especially helpful) but none of the examples covered what I wanted to customise.
+I decided to configure "will_paginate":https://github.com/mislav/will_paginate for pagination as it can paginate all sorts of thing including standard Ruby Arrays which is awesome and exactly what I wanted.  I read a few articles on how to customise will_paginate (the post by "thewebfellas":http://thewebfellas.com/blog/2010/8/22/revisited-roll-your-own-pagination-links-with-will_paginate-and-rails-3 was especially helpful) but none of the examples covered what I wanted to customise.
 
 I wanted to change the default will_paginate behaviour of generating URL's like:
 
