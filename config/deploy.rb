@@ -6,7 +6,7 @@ require "bundler/capistrano"
 require 'yaml'
 require 'erb'
 
-Dir[File.join('initialisers', '*.rb')].each { |f| require "./#{f}" }
+Dir[File.join('config', 'initialisers', '*.rb')].each { |f| require "./#{f}" }
 
 set :application, "Green Worm"
 set :repository, $CONFIG.deploy.repo

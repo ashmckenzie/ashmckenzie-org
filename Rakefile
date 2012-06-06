@@ -1,6 +1,6 @@
 require 'yaml'
 
-Dir[File.join('initialisers', '*.rb')].each { |f| require "./#{f}" }
+Dir[File.join('config', 'initialisers', '*.rb')].each { |f| require "./#{f}" }
 
 namespace :attachments do
 
