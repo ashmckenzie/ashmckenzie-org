@@ -6,27 +6,27 @@ require "bundler/capistrano"
 require 'yaml'
 require 'erb'
 
-CONFIG = YAML.load_file('config/config.yml')
+Dir[File.join('initialisers', '*.rb')].each { |f| require "./#{f}" }
 
 set :application, "Green Worm"
-set :repository, CONFIG['deploy']['repo']
+set :repository, $CONFIG.deploy.repo
 
 set :scm, :git
 set :scm_verbose, true
 
-set :deploy_to, "#{CONFIG['deploy']['base']}/#{CONFIG['app']['name']}"
+set :deploy_to, "#{$CONFIG.deploy.base}/#{$APP_$CONFIG.name}"
 set :deploy_via, :remote_cache
 
 set :keep_releases, 3
 set :use_sudo, false
 set :normalize_asset_timestamps, false
 
-set :user, CONFIG['deploy']['ssh_user']
-ssh_options[:port] = CONFIG['deploy']['ssh_port']
-ssh_options[:keys] = eval(CONFIG['deploy']['ssh_key'])
+set :user, $CONFIG.deploy.ssh_user
+ssh_options[:port] = $CONFIG.deploy.ssh_port
+ssh_options[:keys] = eval($CONFIG.deploy.ssh_key)
 ssh_options[:forward_agent] = true
 
-role :app, CONFIG['deploy']['ssh_host']
+role :app, $CONFIG.deploy.ssh_host
 
 after "deploy:update", "deploy:cleanup"
 after "deploy:setup", "deploy:more_setup"
@@ -47,7 +47,7 @@ namespace :deploy do
 
   desc 'Deploy necessary configs into shared/config'
   task :configs do
-    put CONFIG.reject { |x| x == 'deploy' }.to_yaml, "#{shared_path}/config/config.yml"
+    put $CONFIG.reject { |x| x == 'deploy' }.to_yaml, "#{shared_path}/config/config.yml"
     run "ln -nfs #{shared_path}/config/config.yml #{release_path}/config/config.yml"
   end
 
@@ -66,7 +66,7 @@ namespace :deploy do
 
   desc 'Deploy NGiNX site configuration'
   task :nginx_site do
-    nginx_config = CONFIG['deploy']['nginx']
+    nginx_config = $CONFIG.deploy.nginx
 
     nginx_base_dir = "/etc/nginx"
     nginx_available_dir = "#{nginx_base_dir}/sites-available"
@@ -84,6 +84,6 @@ namespace :deploy do
 end
 
 def nginx_site_config config
-  template = ERB.new(File.read("config/nginx-#{CONFIG['app']['name']}.erb"))
+  template = ERB.new(File.read("config/nginx-#{$APP_$CONFIG.name}.erb"))
   template.result(binding)
 end

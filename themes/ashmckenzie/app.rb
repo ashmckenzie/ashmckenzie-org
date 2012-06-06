@@ -4,8 +4,6 @@ require 'will_paginate/view_helpers/sinatra'
 
 include Sinatra::Toadhopper::Helpers
 
-CONFIG = YAML.load_file('./config/config.yml')
-
 Dir[File.join('config', 'initialisers', '*.rb')].each { |f| require "./#{f}" }
 
 module Nesta
@@ -14,8 +12,8 @@ module Nesta
     use Rack::Static, :urls => [ "/ashmckenzie" ], :root => "themes/ashmckenzie/public"
 
     set :airbrake, 
-      :api_key => CONFIG['errbit']['api_key'],
-      :notify_host => CONFIG['errbit']['host'],
+      :api_key => $CONFIG.errbit.api_key,
+      :notify_host => $CONFIG.errbit.host,
       :filters => /password/
 
     helpers WillPaginate::Sinatra::Helpers
