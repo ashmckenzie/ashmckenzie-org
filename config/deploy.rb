@@ -1,13 +1,12 @@
-require 'bundler/setup'
-Bundler.require(:default, :development)
 require 'capistrano_colors'
-require 'yaml'
-require 'erb'
 
 set :bundle_cmd, '. /etc/profile && bundle'
 require "bundler/capistrano"
 
-Dir[File.join('config', 'initialisers', '*.rb')].each { |f| require "./#{f}" }
+require 'yaml'
+require 'erb'
+
+require File.expand_path(File.join('config', 'initialisers', '00_config'))
 
 set :application, "Green Worm"
 set :repository, $CONFIG.deploy.repo
@@ -72,7 +71,7 @@ namespace :deploy do
     nginx_base_dir = "/etc/nginx"
     nginx_available_dir = "#{nginx_base_dir}/sites-available"
     nginx_enabled_dir = "#{nginx_base_dir}/sites-enabled"
-    nginx_available_file = "#{nginx_available_dir}/#{nginx_config['app_name']}"
+    nginx_available_file = "#{nginx_available_dir}/#{nginx_config.app_name}"
 
     put nginx_site_config(nginx_config), nginx_available_file
     run "ln -nsf #{nginx_available_file} #{nginx_enabled_dir}/"
@@ -85,6 +84,6 @@ namespace :deploy do
 end
 
 def nginx_site_config config
-  template = ERB.new(File.read("config/nginx-#{$APP_CONFIG.name}.erb"))
+  template = ERB.new(File.read("config/nginx-#{config.app_name}.erb"))
   template.result(binding)
 end
