@@ -14,7 +14,7 @@ set :repository, $CONFIG.deploy.repo
 set :scm, :git
 set :scm_verbose, true
 
-set :deploy_to, "#{$CONFIG.deploy.base}/#{$APP_$CONFIG.name}"
+set :deploy_to, "#{$CONFIG.deploy.base}/#{$APP_CONFIG.name}"
 set :deploy_via, :remote_cache
 
 set :keep_releases, 3
@@ -84,6 +84,6 @@ namespace :deploy do
 end
 
 def nginx_site_config config
-  template = ERB.new(File.read("config/nginx-#{$APP_$CONFIG.name}.erb"))
+  template = ERB.new(File.read("config/nginx-#{$APP_CONFIG.name}.erb"))
   template.result(binding)
 end
