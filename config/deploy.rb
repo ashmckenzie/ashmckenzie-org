@@ -1,10 +1,11 @@
+require 'bundler/setup'
+Bundler.require(:default, :development)
 require 'capistrano_colors'
+require 'yaml'
+require 'erb'
 
 set :bundle_cmd, '. /etc/profile && bundle'
 require "bundler/capistrano"
-
-require 'yaml'
-require 'erb'
 
 Dir[File.join('config', 'initialisers', '*.rb')].each { |f| require "./#{f}" }
 

@@ -1,4 +1,5 @@
-require 'yaml'
+require 'bundler/setup'
+Bundler.require(:default, :development)
 
 Dir[File.join('config', 'initialisers', '*.rb')].each { |f| require "./#{f}" }
 
