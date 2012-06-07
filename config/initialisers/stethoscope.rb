@@ -1,5 +1,5 @@
 require 'stethoscope'
 
 Stethoscope.check :release do |resp|
-  resp[:revision] = `git log | head -1`
+  resp[:revision] = `git rev-parse HEAD`.chomp
 end
