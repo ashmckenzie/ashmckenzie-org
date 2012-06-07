@@ -12,11 +12,15 @@
     %link{ :href => "/ashmckenzie/stylesheets/rainbow-twilight.css", :media => "screen", :rel => "stylesheet", :type => "text/css" }
     %link{ :href => "/css/pagination.css", :media => "screen", :rel => "stylesheet", :type => "text/css" }
     %link{ :href => "/css/application.css", :media => "screen", :rel => "stylesheet", :type => "text/css" }
-    - local_stylesheet_link_tag('local')
-    %script{ :type => "text/javascript", :src => "/ashmckenzie/javascripts/jquery-1.7.1.min.js" }
-    %script{ :type => "text/javascript", :src => "/ashmckenzie/javascripts/jquery.colorbox-min.js" }
-    %script{ :type => "text/javascript", :src => "/ashmckenzie/javascripts/rainbow-custom.min.js" }
-    %script{ :type => "text/javascript", :src => "/ashmckenzie/javascripts/application.js" }
+    %script{ :type => "text/javascript", :src => "/ashmckenzie/javascripts/head.min.js" }
+    %script
+      head.js(
+      '/ashmckenzie/javascripts/jquery-1.7.1.min.js',
+      '/ashmckenzie/javascripts/jquery-1.7.1.min.js',
+      '/ashmckenzie/javascripts/jquery.colorbox-min.js',
+      '/ashmckenzie/javascripts/rainbow-custom.min.js',
+      '/ashmckenzie/javascripts/application.js'
+      );
     = haml :analytics, :layout => false            
   %body{ :id => "#{page_id(@page)}" }
     = haml :header, :layout => false

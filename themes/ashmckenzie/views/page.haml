@@ -8,4 +8,4 @@
     ~ @page.to_html(self)
     = haml :page_meta, :layout => false, :locals => { :page => @page }
     %hr 
-    = haml :comment, :layout => false
+    = haml :comments, :layout => false unless @page.date.nil?

@@ -3,4 +3,13 @@ Home page: false
 
 h1. About me
 
-Hi, I'm Ash :)
+<div class="float-left" style="padding: 0 20px 20px 0">
+  !/ashmckenzie/images/ash-mckenzie.jpg(Ash McKenzie)!
+</div>
+
+Hi, I'm Ash :)  I'm a Ruby developer who loves to create software both 
+professionally and for recreation.
+
+When I'm not coding I'm either playing video games, hanging out with my dog "(cb-image)Maurice(Maurice the Boxer)":/ashmckenzie/images/maurice.jpg or convincing myself to get out and about and photograph the outdoors.
+
+Feel free to say g'day :)
