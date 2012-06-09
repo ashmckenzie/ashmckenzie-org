@@ -2,25 +2,38 @@ $base_font_color: #333
 $base_bg_color: #aaa
 $base_fg_color: #fff
 
-$width: 820px
-$inner_width: 760px
-
-$mobile_width: 320px
-$mobile_inner_width: $mobile_width - 20px
+$width: 1024px
+$inner_width: $width - 80
 
 html
   background-image: url('/ashmckenzie/images/bg_speckled.png')
 
   &.lt-1024
+    body
+      width: $width / 1.1
+
+      header#header
+        width: $inner_width / 1.1
+
+      div#content,
+      header,
+      footer,
+        width: $inner_width / 1.1
+
+      article
+        img
+          max-width: $inner_width / 1.1 - 20px
+
+  &.lt-768
     background-image: none
 
     body
       border: none
-      width: $mobile_width
+      width: $width / 2
 
       header#header
         padding-top: 15px
-        width: $mobile_inner_width
+        width: $inner_width / 2
         h1
           font-size: 2.1em
         h2
@@ -30,7 +43,7 @@ html
       div#content,
       header,
       footer,
-        width: $mobile_inner_width
+        width: $inner_width / 2
 
       footer
         margin: 30px auto 0 auto
@@ -40,7 +53,41 @@ html
           font-size: 1.6em
           margin: 10px 0 10px 0
         img
-          max-width: $mobile_inner_width - 20px
+          max-width: $inner_width / 2 - 20px
+
+      pre.rainbow
+        font-size: 0.8em
+
+  &.lt-480
+    background-image: none
+
+    body
+      border: none
+      width: $width / 3.2
+
+      header#header
+        padding-top: 15px
+        width: $inner_width / 3.2
+        h1
+          font-size: 2.1em
+        h2
+          font-size: 1.2em
+          margin: 10px 0 20px 0
+
+      div#content,
+      header,
+      footer,
+        width: $inner_width / 3.2
+
+      footer
+        margin: 30px auto 0 auto
+
+      article
+        h1
+          font-size: 1.6em
+          margin: 10px 0 10px 0
+        img
+          max-width: $inner_width / 3.2 - 20px
 
       pre.rainbow
         font-size: 0.8em
@@ -111,7 +158,7 @@ footer
   border-top: 2px solid #ccc
   font-size: 0.8em
   height: 55px
-  margin: 30px auto 40px auto
+  margin: 30px auto 30px auto
   padding: 0
   p.links
     line-height: 15px
@@ -151,7 +198,7 @@ article
     &:hover
       border-bottom: 1px solid #666    
   img
-    max-width: 760px
+    max-width: $inner_width
   p
     text-align: justify
     &.meta
