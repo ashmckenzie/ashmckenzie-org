@@ -6,7 +6,7 @@ h1. Autoload with ActiveSupport
 Today I came across a really neat way of saving code (and time) when requiring
 libraries.
 
-Instead of
+Instead of:
 
 <pre data-language="ruby">
   require './lib/cat'
