@@ -1,18 +1,19 @@
 !!!
-%html{ :lang => "en", "xml:lang" => "en", :xmlns => 'http://www.w3.org/1999/xhtml' }
+%html{ lang: 'en', 'xml:lang' => 'en', xmlns: 'http://www.w3.org/1999/xhtml' }
   %head
-    %meta{ "http-equiv" => "content-type", "content" => "text/html; charset=utf-8" }
+    %meta{ 'http-equiv' => 'content-type', content: 'text/html; charset=utf-8' }
+    %meta{ name: 'viewport', content: 'width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0; user-scalable=0' }
     - if @description
-      %meta{ "name" => "description", "content" => @description }
+      %meta{ name: 'description', content: @description }
     - if @keywords
-      %meta{ "name" => "keywords", "content" => @keywords }
+      %meta{ name: 'keywords', content: @keywords }
     %title= @title
-    %link{ :href => "/articles.xml", :rel => "alternate", :type => "application/atom+xml" }
-    %link{ :href => "/ashmckenzie/stylesheets/colorbox.css", :media => "screen", :rel => "stylesheet", :type => "text/css" }
-    %link{ :href => "/ashmckenzie/stylesheets/rainbow-twilight.css", :media => "screen", :rel => "stylesheet", :type => "text/css" }
-    %link{ :href => "/css/pagination.css", :media => "screen", :rel => "stylesheet", :type => "text/css" }
-    %link{ :href => "/css/application.css", :media => "screen", :rel => "stylesheet", :type => "text/css" }
-    %script{ :type => "text/javascript", :src => "/ashmckenzie/javascripts/head.min.js" }
+    %link{ href: "/articles.xml", rel: "alternate", type: "application/atom+xml" }
+    %link{ href: "/ashmckenzie/stylesheets/colorbox.css", media: "screen", rel: "stylesheet", type: "text/css" }
+    %link{ href: "/ashmckenzie/stylesheets/rainbow-twilight.css", media: "screen", rel: "stylesheet", type: "text/css" }
+    %link{ href: "/css/pagination.css", media: "screen", rel: "stylesheet", type: "text/css" }
+    %link{ href: "/css/application.css", media: "screen", rel: "stylesheet", type: "text/css" }
+    %script{ type: "text/javascript", src: "/ashmckenzie/javascripts/head.min.js" }
     %script
       head.js(
       '/ashmckenzie/javascripts/jquery-1.7.1.min.js',
@@ -22,6 +23,6 @@
       );
     = haml :analytics, :layout => false            
   %body{ :id => "#{page_id(@page)}" }
-    = haml :header, :layout => false
+    = haml :header, layout: false
     = yield
-    = haml :footer, :layout => false
+    = haml :footer, layout: false

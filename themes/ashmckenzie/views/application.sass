@@ -2,8 +2,11 @@ $base_font_color: #333
 $base_bg_color: #aaa
 $base_fg_color: #fff
 
+$width: 820px
 $inner_width: 760px
-$mobile_inner_width: 380px
+
+$mobile_width: 320px
+$mobile_inner_width: $mobile_width - 20px
 
 html
   background-image: url('/ashmckenzie/images/bg_speckled.png')
@@ -13,16 +16,16 @@ html
 
     body
       border: none
-      width: 400px
+      width: $mobile_width
 
       header#header
-        padding-top: 0
+        padding-top: 15px
         width: $mobile_inner_width
         h1
-          font-size: 2.4em
+          font-size: 2.1em
         h2
-          font-size: 1.4em
-          margin: 0 0 20px 0
+          font-size: 1.2em
+          margin: 10px 0 20px 0
 
       div#content,
       header,
@@ -37,7 +40,7 @@ html
           font-size: 1.6em
           margin: 10px 0 10px 0
         img
-          max-width: 360px          
+          max-width: $mobile_inner_width - 20px
 
       pre.rainbow
         font-size: 0.8em
@@ -54,14 +57,14 @@ body
     size: 0.9em
   line-height: 22px
   margin: 0 auto
-  width: 820px
+  width: $width
 
 header#header
   border-bottom: 1px dotted #aaa
   padding-top: 28px
   width: $inner_width  
   h1
-    line-height: 54px
+    line-height: 34px
     font-size: 4.0em
     margin: 0
     a
