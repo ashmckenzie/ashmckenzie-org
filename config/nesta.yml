@@ -9,6 +9,7 @@ cache: false
 content: content
 disqus_short_name: ashmckenzie-org
 production:
-  cache: true    
+  cache: false    
+  cache_dir: system/cache
   content: /home/apps/ashmckenzie/current/content
   google_analytics_code: "UA-9865706-1"
