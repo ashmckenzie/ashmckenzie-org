@@ -3,6 +3,7 @@
     - if page.metadata('country')
       %span.bold Country:
       %img{ src: "/ashmckenzie/images/flags/#{page.metadata('country')}.gif", class: 'country-image', alt: '' }
+      %br
     %span.bold Published: 
     - if page.draft?
       DRAFT

@@ -11,6 +11,8 @@ module Nesta
   class App
     use Rack::Static, :urls => [ "/ashmckenzie" ], :root => "themes/ashmckenzie/public"
 
+    set :cache_dir, 'system/cache'
+
     set :airbrake, 
       :api_key => $CONFIG.errbit.api_key,
       :notify_host => $CONFIG.errbit.host,

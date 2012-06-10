@@ -5,11 +5,10 @@ author:
   uri: http://ashmckenzie.org
   email: ash@greenworm.com.au
 theme: ashmckenzie
-cache: false
+cache: true
 content: content
 disqus_short_name: ashmckenzie-org
 production:
   cache: false    
-  cache_dir: system/cache
-  content: /home/apps/ashmckenzie/current/content
+  content: content
   google_analytics_code: "UA-9865706-1"
