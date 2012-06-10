@@ -12,7 +12,10 @@ module Nesta
             next_label: 'Older',
             param_name: page_param_name
           )
-            links.gsub(Regexp.new(/(?:\?|&)(#{page_param_name})=(\d+)/), '/\1/\2')
+            # argh, why you no cache
+            #
+            # links.gsub(Regexp.new(/(?:\?|&)(#{page_param_name})=(\d+)/), '/\1/\2')
+            links
           else
             ''
           end
