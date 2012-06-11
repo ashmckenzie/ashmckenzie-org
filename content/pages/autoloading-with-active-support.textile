@@ -3,8 +3,7 @@ Categories: ruby
 
 h1. Autoload with ActiveSupport
 
-Today I came across a really neat way of saving code (and time) when requiring
-libraries.
+Today I came across a really neat way of saving code (and time) when requiring libraries.
 
 Instead of:
 
