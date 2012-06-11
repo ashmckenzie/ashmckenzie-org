@@ -3,7 +3,7 @@ Categories: ruby
 
 h1. Ruby's Regexp.union
 
-I can across the a handy regular expression method in Ruby the other day. It's called "Regexp.union":http://www.ruby-doc.org/core-1.9.3/Regexp.html#method-c-union and can be used as follows:
+I came across the a handy regular expression method in Ruby the other day. It's called "Regexp.union":http://www.ruby-doc.org/core-1.9.3/Regexp.html#method-c-union and can be used as follows:
 
 <pre data-language="ruby">
   regexs = [
