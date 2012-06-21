@@ -1,0 +1,42 @@
+Date: 21 June 2012 00:00:00
+Categories: mongo
+
+h1. Dropping a stubborn database in Mongo
+
+Due to a typo in my Rails @database.yml@ file, I had a Mongo DB that was badly named (see @errbit%@):
+
+<pre data-language="javascript">
+> show dbs
+local (empty)
+errbit 0.203125GB
+errbit% 0.203125GB
+</pre>
+
+Dropping the database using the usual command appeared to work:
+
+<pre data-language="javascript">
+> use 'errbit%'
+switched to db 'errbit%'
+> db.dropDatabase()
+{ "dropped" : "'errbit%'", "ok" : 1 }
+</pre>
+
+But upon closer inspection, it was still there :(
+
+<pre data-language="javascript">
+> show dbs
+local (empty)
+errbit 0.203125GB
+errbit% 0.203125GB
+</pre>
+
+You can get around this by using @db.getSublingDB("<BAD DB NAME>")@:
+
+<pre data-language="javascript">
+> var bad_db = db.getSiblingDB("errbit%")
+> bad_db.dropDatabase()
+{ "dropped" : "errbit%", "ok" : 1 }
+> show dbs
+local (empty)
+errbit 0.203125GB
+</pre>
