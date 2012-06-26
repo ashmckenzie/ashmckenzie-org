@@ -79,6 +79,19 @@ html
         h2
           font-size: 1.2em
           margin: 10px 0 20px 0
+        nav
+          &:first-child
+            position: relative
+            top: -8px
+          &.menu
+            margin-bottom: 0
+          &.menu, &.categories
+            clear: both
+            float: none
+            text-align: center
+            ul li
+              display: inline
+              float: none
 
       div#content,
       header,
@@ -114,7 +127,6 @@ body
   width: $width
 
 header#header
-  border-bottom: 1px dotted #aaa
   padding-top: 28px
   width: $inner_width
   h1
@@ -126,8 +138,6 @@ header#header
       text-decoration: none
   h2
     font-size: 2.1em
-  &> nav
-    padding-bottom: 45px
 
 header#header hgroup *,
 nav,
@@ -153,6 +163,10 @@ nav.breadcrumb
       content: "\00BB"
     &:last-child::after
       content: ''
+
+div#content
+  border-top: 1px dotted #aaa
+  clear: both
 
 div#content,
 header,
@@ -276,10 +290,8 @@ h1, h2
 .bold
   font-weight: bold
 
-div.categories
+nav.categories
   float: right
-  label
-    float: left
 
 nav
   &.menu, &.categories

@@ -9,6 +9,5 @@
     %nav.menu
       - display_menu(@menu_items, :levels => 1)
 
-    %div.categories  
-      %nav.categories
-        - display_menu(Nesta::Menu.for_path('/', 'categories.txt'), :levels => 1)
+    %nav.categories
+      - display_menu(Nesta::Menu.for_path('/', 'categories.txt'), :levels => 1)

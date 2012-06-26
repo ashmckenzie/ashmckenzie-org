@@ -5,7 +5,7 @@ author:
   uri: http://ashmckenzie.org
   email: ash@greenworm.com.au
 theme: ashmckenzie
-cache: true
+cache: false
 content: content
 disqus_short_name: ashmckenzie-org
 production:
