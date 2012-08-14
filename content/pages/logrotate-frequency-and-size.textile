@@ -1,0 +1,49 @@
+Date: 14 August 2012 00:00:00
+Categories: devops
+
+h1. Logrotate frequency and size
+
+I wanted to rotate a log file daily OR if the size was greater than 2MB:
+
+@/etc/logrotate.d/massive@
+
+<pre data-language="shell">
+/var/log/massive.log {
+    daily
+    size 2M
+    rotate 7
+}
+</pre>
+
+It turns out this is *not* possible as the @size@ options overrides the @daily,weekly,etc@ option (and vice-versa, whichever options appears last):
+
+<pre data-language="shell">
+$ sudo /usr/sbin/logrotate -dv /etc/logrotate.conf
+</pre>
+
+<pre data-language="shell">
+rotating pattern: /var/log/massive.log  2097152 bytes (7 rotations)
+..
+</pre>
+
+After changing @/etc/logrotate.d/massive@
+
+<pre data-language="shell">
+/var/log/massive.log {
+    size 2M
+    daily
+    rotate 7
+}
+</pre>
+
+<pre data-language="shell">
+$ sudo /usr/sbin/logrotate -dv /etc/logrotate.conf
+</pre>
+
+<pre data-language="shell">
+rotating pattern: /var/log/massive.log  after 1 days (7 rotations)
+..
+</pre>
+
+Running @/usr/sbin/logrotate@ with @-dv@ was very helpful in diagnosing what was going on without making any changes.
+<br/>

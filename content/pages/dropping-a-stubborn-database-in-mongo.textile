@@ -30,7 +30,7 @@ errbit 0.203125GB
 errbit% 0.203125GB
 </pre>
 
-You can get around this by using @db.getSublingDB("<BAD DB NAME>")@:
+You can get around this by using @db.getSiblingDB("<BAD DB NAME>")@:
 
 <pre data-language="javascript">
 > var bad_db = db.getSiblingDB("errbit%")
