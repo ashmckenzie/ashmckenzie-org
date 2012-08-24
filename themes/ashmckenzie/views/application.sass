@@ -99,7 +99,20 @@ html
         width: $inner_width / 3.2
 
       footer
-        margin: 30px auto 0 auto
+        .links
+          margin: 10px auto
+          padding-bottom: 20px
+          width: $inner_width / 4
+          &:after
+            content: ""
+            display: table
+            clear: both
+          a
+            display: block
+            &.left
+              float: left
+            &.right
+            float: right
 
       article
         h1
@@ -181,9 +194,9 @@ footer
   font-size: 0.8em
   height: 55px
   margin: 30px auto 30px auto
-  padding: 0
-  p.links
-    line-height: 15px
+  padding: 0 0 20px 0
+  .links
+    line-height: 30px
     padding-top: 8px
     a
       color: #555

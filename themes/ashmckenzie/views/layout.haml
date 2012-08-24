@@ -21,7 +21,7 @@
       '/ashmckenzie/javascripts/rainbow-custom.min.js',
       '/ashmckenzie/javascripts/application.js'
       );
-    = haml :analytics, :layout => false            
+    = haml :analytics, :layout => false
   %body{ :id => "#{page_id(@page)}" }
     = haml :header, layout: false
     = yield
