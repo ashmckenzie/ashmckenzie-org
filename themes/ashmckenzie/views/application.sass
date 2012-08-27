@@ -39,6 +39,14 @@ html
         h2
           font-size: 1.2em
           margin: 10px 0 20px 0
+        nav
+          &.menu, &.categories
+            clear: both
+            float: none
+            text-align: center
+            ul li
+              display: inline
+              float: none
 
       div#content,
       header,
@@ -112,7 +120,7 @@ html
             &.left
               float: left
             &.right
-            float: right
+              float: right
 
       article
         h1
@@ -123,7 +131,6 @@ html
           max-width: $inner_width / 3.2 - 20px
 
       pre.rainbow
-        padding-top: 0
         font-size: 0.8em
 
 body
@@ -151,7 +158,8 @@ header#header
       color: $base_font_color
       text-decoration: none
   h2
-    font-size: 2.1em
+    color: #888
+    font-size: 1.9em
 
 header#header hgroup *,
 nav,
