@@ -24,10 +24,19 @@ module Nesta
       set_common_variables
       post_error_to_airbrake!
       haml(:error)
-    end unless Nesta::App.development? 
-  end  
+    end unless Nesta::App.development?
+  end
 
   class Page
+
+    def show_breadcrumbs?
+      !(metadata('show breadcrumbs') == 'false')
+    end
+
+    def show_comments?
+      !(metadata('show comments') == 'false')
+    end
+
     def title
       if metadata('title')
         metadata('title')

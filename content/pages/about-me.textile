@@ -1,5 +1,7 @@
 Date: 20 May 2012 00:00:00
 Home page: false
+Show breadcrumbs: false
+Show comments: false
 
 h1. About me
 

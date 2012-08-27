@@ -1,11 +1,12 @@
 - article_opts = @page.draft? ? { class: 'draft' } : {}
 
 #content
-  %nav.breadcrumb
-    - display_breadcrumbs
+  - if @page.show_breadcrumbs?
+    %nav.breadcrumb
+      - display_breadcrumbs
 
   %article{ article_opts }
     ~ @page.to_html(self)
     = haml :page_meta, :layout => false, :locals => { :page => @page }
-    %hr 
-    = haml :comments, :layout => false unless @page.date.nil?
+    %hr
+    = haml :comments, :layout => false if @page.show_comments? && !@page.date.nil?
