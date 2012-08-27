@@ -8,7 +8,7 @@ require 'erb'
 
 require File.expand_path(File.join('config', 'initialisers', '00_config'))
 
-$NESTA_CONFIG = Hashie::Mash.new YAML.load_file(File.expand_path('../../config.yml', __FILE__))
+$NESTA_CONFIG = Hashie::Mash.new YAML.load_file(File.expand_path('../config.yml', __FILE__))
 
 set :application, "Green Worm"
 set :repository, $CONFIG.deploy.repo
