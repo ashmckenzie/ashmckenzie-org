@@ -8,6 +8,8 @@ require 'erb'
 
 require File.expand_path(File.join('config', 'initialisers', '00_config'))
 
+$NESTA_CONFIG = Hashie::Mash.new YAML.load_file(File.expand_path('../../config.yml', __FILE__))
+
 set :application, "Green Worm"
 set :repository, $CONFIG.deploy.repo
 
@@ -47,8 +49,10 @@ namespace :deploy do
 
   desc 'Deploy necessary configs into shared/config'
   task :configs do
-    put $CONFIG.reject { |x| x == 'deploy' }.to_yaml, "#{shared_path}/config/config.yml"
+    put $NESTA_CONFIG.to_yaml, "#{shared_path}/config/config.yml"
+    put $CONFIG.reject { |x| x == 'deploy' }.to_yaml, "#{shared_path}/config/deploy.yml"
     run "ln -nfs #{shared_path}/config/config.yml #{release_path}/config/config.yml"
+    run "ln -nfs #{shared_path}/config/deploy.yml #{release_path}/config/deploy.yml"
   end
 
   namespace :attachments do
@@ -61,7 +65,7 @@ namespace :deploy do
     desc 'Symlink attachments'
     task :symlink do
       run "ln -nfs #{shared_path}/attachments #{release_path}/content/"
-    end    
+    end
   end
 
   desc 'Deploy NGiNX site configuration'
