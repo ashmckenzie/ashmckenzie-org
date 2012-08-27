@@ -1,0 +1,9 @@
+Link text: Git
+
+%h1 Git articles
+
+- posts = @page.articles.paginate(:page => params[:page], :per_page => 5)
+
+%section.articles= article_summaries(posts)
+
+= paginate posts

@@ -1,0 +1,8 @@
+Date: 27 August 2012 00:00:00
+Categories: git
+Flags: draft
+
+h1. Git merge squash tip
+
+<pre data-language="shell">
+</pre>
