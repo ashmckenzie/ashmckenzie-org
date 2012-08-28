@@ -1,8 +1,34 @@
 Date: 27 August 2012 00:00:00
 Categories: git
-Flags: draft
 
 h1. Git merge squash tip
 
+I tend to create git branches when working on a new piece of functionality and merge into master at various points along the way.  Whilst this approach does have some potential pitfalls (deviating too far from master, conflict hell) I believe when managed and used correctly, feature branches yield many benefits.
+
+Just recently, I wanted to merge the changes I had made in my feature branch @am-feature1@ into @master@ but as a single commit with a more succinct commit message and came across the @--squash@ argument to @git merge@:
+
 <pre data-language="shell">
+  $ git status
+  # On branch master
+  nothing to commit (working directory clean)
+
+  $ git merge --squash am-feature1
+  Updating 4706c64..761b469
+  Fast-forward
+  Squash commit -- not updating HEAD
+   file2.txt |    1 +
+   file3.txt |    1 +
+   2 files changed, 2 insertions(+)
+   create mode 100644 file2.txt
+   create mode 100644 file3.txt
+
+  $ git status
+  # On branch master
+  # Changes to be committed:
+  #   (use "git reset HEAD <file>..." to unstage)
+  #
+  # new file:   file2.txt
+  # new file:   file3.txt
 </pre>
+
+I was then free to commit the changes and type a single message to cover the detail of the change.
