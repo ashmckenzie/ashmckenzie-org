@@ -5,6 +5,12 @@ $base_fg_color: #fff
 $width: 840px
 $inner_width: $width - 80
 
+$seven_six_eight_width: $width / 1.8
+$seven_six_eight_inner_width: $inner_width / 1.8
+
+$four_eighty_width: $width / 2.2
+$four_eighty_inner_width: $inner_width / 2.2
+
 html
   background-image: url('/ashmckenzie/images/bg_speckled.png')
 
@@ -29,11 +35,11 @@ html
 
     body
       border: none
-      width: $width / 2
+      width: $seven_six_eight_width
 
       header#header
         padding-top: 15px
-        width: $inner_width / 2
+        width: $seven_six_eight_inner_width
         h1
           font-size: 2.1em
         h2
@@ -51,7 +57,7 @@ html
       div#content,
       header,
       footer,
-        width: $inner_width / 2
+        width: $seven_six_eight_inner_width
 
       footer
         margin: 30px auto 0 auto
@@ -61,7 +67,7 @@ html
           font-size: 1.6em
           margin: 10px 0 10px 0
         img
-          max-width: $inner_width / 2 - 20px
+          max-width: $seven_six_eight_inner_width - 20px
 
       pre.rainbow
         font-size: 0.8em
@@ -71,7 +77,7 @@ html
 
     body
       border: none
-      width: $width / 3.2
+      width: $four_eighty_width
       &#about-me
         article
           div
@@ -81,7 +87,7 @@ html
 
       header#header
         padding-top: 15px
-        width: $inner_width / 3.2
+        width: $four_eighty_inner_width
         h1
           font-size: 2.0em
         h2
@@ -104,13 +110,13 @@ html
       div#content,
       header,
       footer,
-        width: $inner_width / 3.2
+        width: $four_eighty_inner_width
 
       footer
         .links
           margin: 10px auto
           padding-bottom: 20px
-          width: $inner_width / 4
+          width: $four_eighty_inner_width / 4
           &:after
             content: ""
             display: table
@@ -128,7 +134,7 @@ html
           line-height: 28px
           margin: 10px 0 10px 0
         img
-          max-width: $inner_width / 3.2 - 20px
+          max-width: $four_eighty_inner_width - 20px
 
       pre.rainbow
         font-size: 0.8em
