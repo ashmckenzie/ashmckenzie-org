@@ -11,6 +11,9 @@ $seven_six_eight_inner_width: $inner_width / 1.8
 $four_eighty_width: $width / 2.35
 $four_eighty_inner_width: $inner_width / 2.35
 
+$three_twenty_width: $width / 2.35
+$three_twenty_inner_width: $inner_width / 2.35
+
 html
   background-image: url('/ashmckenzie/images/bg_speckled.png')
 
@@ -135,6 +138,73 @@ html
           margin: 10px 0 10px 0
         img
           max-width: $four_eighty_inner_width - 20px
+
+      pre.rainbow
+        font-size: 0.8em
+
+  &.lt-320
+    background-image: none
+
+    body
+      border: none
+      width: $three_twenty_width
+      &#about-me
+        article
+          div
+            float: none !important
+            padding: 0 !important
+            text-align: center
+
+      header#header
+        padding-top: 15px
+        width: $three_twenty_inner_width
+        h1
+          font-size: 2.0em
+        h2
+          font-size: 1.2em
+          margin: 10px 0 20px 0
+        nav
+          &:first-child
+            position: relative
+            top: -8px
+          &.menu
+            margin-bottom: 0
+          &.menu, &.categories
+            clear: both
+            float: none
+            text-align: center
+            ul li
+              display: inline
+              float: none
+
+      div#content,
+      header,
+      footer,
+        width: $three_twenty_inner_width
+
+      footer
+        .links
+          margin: 10px auto
+          padding-bottom: 20px
+          width: $three_twenty_inner_width / 4
+          &:after
+            content: ""
+            display: table
+            clear: both
+          a
+            display: block
+            &.left
+              float: left
+            &.right
+              float: right
+
+      article
+        h1
+          font-size: 1.2em
+          line-height: 28px
+          margin: 10px 0 10px 0
+        img
+          max-width: $three_twenty_inner_width - 20px
 
       pre.rainbow
         font-size: 0.8em
