@@ -9,7 +9,7 @@
       %meta{ name: 'keywords', content: @keywords }
     %title= @title
     %link{ href: "/articles.xml", rel: "alternate", type: "application/atom+xml" }
-    %link{ href: "/ashmckenzie/stylesheets/colorbox.css", media: "screen", rel: "stylesheet", type: "text/css" }
+    %link{ href: "/ashmckenzie/stylesheets/fresco/fresco.css", media: "screen", rel: "stylesheet", type: "text/css" }
     %link{ href: "/ashmckenzie/stylesheets/rainbow-twilight.css", media: "screen", rel: "stylesheet", type: "text/css" }
     %link{ href: "/css/pagination.css", media: "screen", rel: "stylesheet", type: "text/css" }
     %link{ href: "/css/application.css", media: "screen", rel: "stylesheet", type: "text/css" }
@@ -17,8 +17,8 @@
     %script
       head.js(
       '/ashmckenzie/javascripts/jquery-1.7.1.min.js',
-      '/ashmckenzie/javascripts/jquery.colorbox-min.js',
       '/ashmckenzie/javascripts/rainbow-custom.min.js',
+      '/ashmckenzie/javascripts/fresco.js',
       '/ashmckenzie/javascripts/application.js'
       );
     = haml :analytics, :layout => false
