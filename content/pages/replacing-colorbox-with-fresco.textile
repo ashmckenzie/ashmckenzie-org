@@ -1,0 +1,5 @@
+Date: 12 September 2012 00:00:00
+Categories: web
+
+h1. Replacing ColorBox with Fresco
+

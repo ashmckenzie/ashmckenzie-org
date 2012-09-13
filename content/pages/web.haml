@@ -1,0 +1,11 @@
+Link text: Web
+Show breadcrumbs: false
+Show comments: false
+
+%h1 Web articles
+
+- posts = @page.articles.paginate(:page => params[:page], :per_page => 5)
+
+%section.articles= article_summaries(posts)
+
+= paginate posts
