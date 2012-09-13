@@ -5,160 +5,26 @@ $base_fg_color: #fff
 $width: 840px
 $inner_width: $width - 80
 
-$seven_six_eight_width: $width / 1.8
-$seven_six_eight_inner_width: $inner_width / 1.8
-
-$four_eighty_width: $width / 2.35
-$four_eighty_inner_width: $inner_width / 2.35
-
-html
-  background-image: url('/ashmckenzie/images/bg_speckled.png')
-
-  &.lt-1024
-    body
-      width: $width / 1.1
-
-      header#header
-        width: $inner_width / 1.1
-
-      div#content,
-      header,
-      footer,
-        width: $inner_width / 1.1
-
-      article
-        img
-          max-width: $inner_width / 1.1 - 20px
-
-  &.lt-768
-    background-image: none
-
-    body
-      border: none
-      width: $seven_six_eight_width
-
-      header#header
-        padding-top: 15px
-        width: $seven_six_eight_inner_width
-        h1
-          font-size: 2.1em
-        h2
-          font-size: 1.2em
-          margin: 10px 0 20px 0
-        nav
-          &.menu, &.categories
-            clear: both
-            float: none
-            text-align: center
-            ul li
-              display: inline
-              float: none
-
-      div#content,
-      header,
-      footer,
-        width: $seven_six_eight_inner_width
-
-      footer
-        margin: 30px auto 0 auto
-
-      article
-        h1
-          font-size: 1.6em
-          margin: 10px 0 10px 0
-        img
-          max-width: $seven_six_eight_inner_width - 20px
-
-      pre.rainbow
-        font-size: 0.8em
-
-  &.lt-480
-    background-image: none
-
-    body
-      border: none
-      width: $four_eighty_width
-      &#about-me
-        article
-          div
-            float: none !important
-            padding: 0 !important
-            text-align: center
-
-      header#header
-        padding-top: 15px
-        width: $four_eighty_inner_width
-        h1
-          font-size: 2.0em
-        h2
-          font-size: 1.2em
-          margin: 10px 0 20px 0
-        nav
-          &:first-child
-            position: relative
-            top: -8px
-          &.menu
-            margin-bottom: 0
-          &.menu, &.categories
-            clear: both
-            float: none
-            text-align: center
-            ul li
-              display: inline
-              float: none
-
-      div#content,
-      header,
-      footer,
-        width: $four_eighty_inner_width
-
-      footer
-        .links
-          margin: 10px auto
-          padding-bottom: 20px
-          width: $four_eighty_inner_width / 1.3
-          &:after
-            content: ""
-            display: table
-            clear: both
-          a
-            display: block
-            &.left
-              clear: both
-              float: left
-            &.right
-              float: right
-
-      article
-        h1
-          font-size: 1.2em
-          line-height: 28px
-          margin: 10px 0 10px 0
-        img
-          max-width: $four_eighty_inner_width - 20px
-
-      pre.rainbow
-        font-size: 0.8em
-
 body
   background-color: $base_fg_color
-  border: 3px solid #999
-  border:
-    top: none
-    bottom: none
   color: $base_font_color
   font:
     family: 'Helvetica Neue', Helvetica, Verdana
     size: 0.9em
   line-height: 22px
   margin: 0 auto
-  width: $width
+  width: 100%
+
+div#content,
+header,
+footer,
+  margin: 0 auto
+  width: 90%
 
 header#header
   padding-top: 28px
-  width: $inner_width
   h1
-    line-height: 34px
+    line-height: 54px
     font-size: 4.0em
     margin: 0
     a
@@ -167,6 +33,24 @@ header#header
   h2
     color: #888
     font-size: 1.9em
+
+@media screen and (min-width: 900px)
+  html
+    background-image: url('/ashmckenzie/images/bg_speckled.png')
+  body
+    border: 3px solid #999
+    border:
+      top: none
+      bottom: none
+    width: $width
+
+  div#content,
+  header,
+  footer,
+    width: $inner_width
+
+  header#header
+    width: $inner_width
 
 header#header hgroup *,
 nav,
@@ -196,13 +80,6 @@ nav.breadcrumb
 div#content
   border-top: 1px dotted #aaa
   clear: both
-
-div#content,
-header,
-footer,
-  background-color: $base_fg_color
-  margin: 0 auto
-  width: $inner_width
 
 footer
   border-top: 2px solid #ccc
@@ -248,7 +125,9 @@ article
     &:hover
       border-bottom: 1px solid #666
   img
-    max-width: $inner_width
+    max-width: 90%
+    @media screen and (min-width: 900px)
+      max-width: $inner_width
   p
     font:
       family: "freight-sans-pro", "Myriad Pro", "Myriad", sans-serif
