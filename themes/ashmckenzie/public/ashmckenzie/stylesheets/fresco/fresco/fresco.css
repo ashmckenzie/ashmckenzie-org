@@ -206,6 +206,7 @@
   top: 0;
   left: 0;
   image-rendering: optimizeQuality;
+  max-width: none;
 }
 
 .fr-content-image-overlay {
@@ -597,8 +598,6 @@
   z-index: 0; /* IE8 */
 }
 
-.fr-thumbnail-wrapper img { position: absolute; }
-
 .lv_thumbnail_icon {
   width: 36px;
   height: 36px;
@@ -634,8 +633,10 @@
   
 }
 .fr-thumbnail img {
+  position: absolute;
   filter: alpha(opacity=85);
   opacity: .85;
+  max-width: none;
 }
 .fr-thumbnail:hover img,
 .fr-thumbnail-active:hover img {
@@ -960,10 +961,7 @@ only screen and (min-device-pixel-ratio: 2) {
   background-image: url('skins/ie6/sprite.png');
 }
 
-/* < > 
-.fr-window-IE6 .fr-side-previous .fr-side-button .fr-side-button-icon { background-position: -13px -14px; }
-.fr-window-IE6 .fr-side-next .fr-side-button .fr-side-button-icon { background-position: -93px -14px; }*/
-
+/* < > */
 .fr-window-IE6 .fr-side-previous .fr-side-button .fr-side-button-icon { background-position: -13px -114px; }
 .fr-window-IE6 .fr-side-next .fr-side-button .fr-side-button-icon { background-position: -93px -114px; }
 
