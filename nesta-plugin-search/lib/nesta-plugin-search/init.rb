@@ -20,7 +20,6 @@ module Nesta
       @results = []
 
       if @q
-        require 'pry'
         index = Ferret::Index::Index.new(:path => './index/articles.idx')
         index.search_each("*: #{@q}") { |id, score| @results  << { :id => id, :score => score, :entry => index[id] } }
       end
