@@ -1,5 +1,5 @@
 require 'rack/rewrite'
-            
+
 module Nesta
   module Plugin
     module Redirect

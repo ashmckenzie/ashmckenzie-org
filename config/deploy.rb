@@ -44,7 +44,7 @@ namespace :deploy do
 
   desc 'More setup.. ensure necessary directories exist, etc'
   task :more_setup do
-    run "mkdir -p #{shared_path}/config #{shared_path}/attachments"
+    run "mkdir -p #{shared_path}/config #{shared_path}/attachments #{shared_path}/index"
   end
 
   desc 'Deploy necessary configs into shared/config'
@@ -65,6 +65,7 @@ namespace :deploy do
     desc 'Symlink attachments'
     task :symlink do
       run "ln -nfs #{shared_path}/attachments #{release_path}/content/"
+      run "ln -nfs #{shared_path}/index #{release_path}/"
     end
   end
 

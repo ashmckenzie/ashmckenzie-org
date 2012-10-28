@@ -1,0 +1,21 @@
+Show breadcrumbs: false
+Show comments: false
+
+%h1 Search
+
+%form{ action: '/search', method: 'get' }
+  %input{ type: 'text', name: 'q', value: @q }
+  %input{ type: 'submit', value: 'Search' }
+
+- if @q
+  - unless @results.empty?
+
+    %ul
+      - @results.each do |result|
+        %li
+          %a{ :href => result[:entry][:path] }= result[:entry][:title]
+          = sprintf('(%.2f)', result[:score])
+
+  - else
+
+    %p Sorry, no matches.

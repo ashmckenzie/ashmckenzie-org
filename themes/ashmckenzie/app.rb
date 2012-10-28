@@ -13,7 +13,7 @@ module Nesta
 
     set :cache_dir, 'system/cache'
 
-    set :airbrake, 
+    set :airbrake,
       :api_key => $CONFIG.errbit.api_key,
       :notify_host => $CONFIG.errbit.host,
       :filters => /password/

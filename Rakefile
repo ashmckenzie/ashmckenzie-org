@@ -3,6 +3,8 @@ Bundler.require(:default, :development)
 
 Dir[File.join('config', 'initialisers', '*.rb')].each { |f| require "./#{f}" }
 
+Dir['**/*.rake'].each { |file| load(file) }
+
 namespace :attachments do
 
   desc 'Sync attachments'
