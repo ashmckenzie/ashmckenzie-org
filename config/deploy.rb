@@ -30,7 +30,7 @@ ssh_options[:forward_agent] = true
 
 role :app, $CONFIG.deploy.ssh_host
 
-after "deploy:update", "deploy:cleanup"
+after "deploy:update", "index:recreate", "deploy:cleanup"
 after "deploy:setup", "deploy:more_setup"
 
 before "deploy:create_symlink",
@@ -74,7 +74,7 @@ namespace :index do
 
   desc 'Recreate index'
   task :recreate do
-
+    run ". /etc/profile ; cd #{current_release} ; rake search:index"
   end
 end
 
