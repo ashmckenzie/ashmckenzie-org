@@ -1,33 +1,29 @@
-require 'sinatra'
-require 'nesta/app'
+require 'json'
 
 module Nesta
   module Plugin
     module Search
       module Helpers
-        # If your plugin needs any helper methods, add them here...
+
+        def search q
+          index = Ferret::Index::Index.new(:path => './index/articles.idx')
+          results = []
+          index.search_each("*: #{q}") do |id, score|
+            entry = {
+              :title => index[id][:title],
+              :path => index[id][:path],
+              :categories => JSON.parse(index[id][:categories], { :symbolize_names => true })
+            }
+            results << { :id => id, :score => score.round(2), :entry => entry }
+          end
+
+          results
+        end
       end
     end
   end
 
   class App
     helpers Nesta::Plugin::Search::Helpers
-
-    get '/search' do
-      set_common_variables
-
-      @q = params[:q]
-      @results = []
-
-      if @q
-        index = Ferret::Index::Index.new(:path => './index/articles.idx')
-        index.search_each("*: #{@q}") { |id, score| @results  << { :id => id, :score => score, :entry => index[id] } }
-      end
-
-      @page = Nesta::Page.load('../../nesta-plugin-search/content/pages/search')
-      raise Sinatra::NotFound if @page.nil?
-      @title = @page.title
-      cache haml(@page.template, :layout => @page.layout)
-    end
   end
 end

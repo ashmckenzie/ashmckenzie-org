@@ -6,8 +6,11 @@
     %h2= @subtitle
 
   %nav
-    %nav.menu
+    %nav#menu
       - display_menu(@menu_items, :levels => 1)
 
-    %nav.categories
-      - display_menu(Nesta::Menu.for_path('/', 'categories.txt'), :levels => 1)
+    %nav#search
+      %form{ action: '/search', method: 'get', id: 'search' }
+        %input{ type: 'text', name: 'q', value: params[:q] }
+
+

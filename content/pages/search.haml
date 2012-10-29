@@ -1,0 +1,21 @@
+Show breadcrumbs: false
+Show comments: false
+
+%h1 Search results
+
+- if params[:q]
+
+  - results = search(params[:q])
+  - unless results.empty?
+
+    %ul{ id: 'search-results' }
+      - results.each do |result|
+        %li
+          - unless result[:entry][:categories].empty?
+            %a{ :href => result[:entry][:categories].first[:path] }= result[:entry][:categories].first[:name]
+            \/
+          %a{ :href => result[:entry][:path] }= result[:entry][:title]
+
+  - else
+
+    %p Sorry, no matches.

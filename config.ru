@@ -11,8 +11,6 @@ use Rack::ConditionalGet
 use Rack::ETag
 use Stethoscope
 
-require 'sinatra'
-require 'sinatra/toadhopper'
 require 'nesta/app'
 
 use Rack::Rewrite do

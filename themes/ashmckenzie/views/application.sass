@@ -74,7 +74,7 @@ nav.breadcrumb
       content: ''
 
 div#content
-  border-top: 1px dotted #aaa
+  border-top: 1px dotted #ccc
   clear: both
 
 footer
@@ -82,7 +82,6 @@ footer
   font-size: 0.8em
   height: 55px
   margin: 30px auto 30px auto
-  p.made-with
   a
     color: #999
   color: #999
@@ -228,28 +227,40 @@ h1, h2
 .bold
   font-weight: bold
 
-nav.categories
+nav#search
   float: right
 
 nav
-  &.menu, &.categories
-    margin-bottom: 15px
+  &#menu, &#search
     ul
       display: block
       list-style: none
       margin: 0
       padding: 0
 
-  &.menu
-    float: left
-    ul li
+  &#menu
+    clear: both
+    float: none
+    margin: 0 auto
+    padding-bottom: 12px
+    text-align: center
+    @media screen and (min-width: 700px)
+      clear: none
       float: left
-      margin-right: 10px
-  &.categories
-    float: right
+      padding-bottom: 0
     ul li
+      display: inline
+      margin-right: 10px
+      @media screen and (min-width: 700px)
+        float: left
+  &#search
+    margin: 0 auto
+    text-align: center
+    clear: both
+    float: none
+    @media screen and (min-width: 700px)
+      clear: none
       float: right
-      margin-left: 10px
 
 #home
   nav.breadcrumb
@@ -267,3 +278,35 @@ pre.rainbow
 
 .float-left
   float: left
+
+textarea, input
+  outline: none
+
+#search-results
+  text-align: left
+
+#search
+  text-align: center
+  padding-bottom: 7px
+
+  input[type="text"]
+    background: url(/ashmckenzie/images/search-white.png) no-repeat 10px 6px #fcfcfc
+    border: 1px solid #d1d1d1
+    font: bold 12px Arial,Helvetica,Sans-serif
+    color: #777
+    width: 200px
+    padding: 6px 15px 6px 35px
+    -webkit-border-radius: 20px
+    -moz-border-radius: 20px
+    border-radius: 20px
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1)
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset
+    -webkit-transition: all 0.7s ease 0s
+    -moz-transition: all 0.7s ease 0s
+    -o-transition: all 0.7s ease 0s
+    transition: all 0.7s ease 0s
+
+  input[type="text"]:focus
+    width: 200px

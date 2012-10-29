@@ -2,6 +2,9 @@ require 'will_paginate'
 require 'will_paginate/array'
 require 'will_paginate/view_helpers/sinatra'
 
+require 'sinatra'
+require 'sinatra/toadhopper'
+
 include Sinatra::Toadhopper::Helpers
 
 Dir[File.join('config', 'initialisers', '*.rb')].each { |f| require "./#{f}" }

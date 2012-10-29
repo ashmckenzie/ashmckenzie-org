@@ -35,10 +35,10 @@ after "deploy:setup", "deploy:more_setup"
 
 before "deploy:create_symlink",
   "deploy:configs",
-  "deploy:attachments:sync",
-  "deploy:attachments:symlink",
-  "deploy:nginx_site",
-  "deploy:nginx_reload"
+  "attachments:sync",
+  "attachments:symlink",
+  "nginx:setup",
+  "nginx:reload"
 
 namespace :deploy do
 
@@ -54,23 +54,39 @@ namespace :deploy do
     run "ln -nfs #{shared_path}/config/config.yml #{release_path}/config/config.yml"
     run "ln -nfs #{shared_path}/config/deploy.yml #{release_path}/config/deploy.yml"
   end
+end
 
-  namespace :attachments do
+namespace :attachments do
 
-    desc 'Sync attachments'
-    task :sync do
-      system "rake attachments:sync"
-    end
-
-    desc 'Symlink attachments'
-    task :symlink do
-      run "ln -nfs #{shared_path}/attachments #{release_path}/content/"
-      run "ln -nfs #{shared_path}/index #{release_path}/"
-    end
+  desc 'Sync attachments'
+  task :sync do
+    system "rake attachments:sync"
   end
 
-  desc 'Deploy NGiNX site configuration'
-  task :nginx_site do
+  desc 'Symlink attachments'
+  task :symlink do
+    run "ln -nfs #{shared_path}/attachments #{release_path}/content/"
+    run "ln -nfs #{shared_path}/index #{release_path}/"
+  end
+end
+
+namespace :index do
+
+  desc 'Recreate index'
+  task :recreate do
+
+  end
+end
+
+namespace :nginx do
+
+  desc 'Reload nginx'
+  task :reload do
+    sudo 'service nginx reload'
+  end
+
+  desc 'Setup nginx site configuration'
+  task :setup do
     nginx_config = $CONFIG.deploy.nginx
 
     nginx_base_dir = "/etc/nginx"
@@ -80,11 +96,6 @@ namespace :deploy do
 
     put nginx_site_config(nginx_config), nginx_available_file
     run "ln -nsf #{nginx_available_file} #{nginx_enabled_dir}/"
-  end
-
-  desc 'Reload NGiNX'
-  task :nginx_reload do
-    sudo 'service nginx reload'
   end
 end
 
