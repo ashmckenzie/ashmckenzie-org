@@ -1,5 +1,5 @@
 /*!
- * Fresco - A Beautiful Responsive Lightbox - v1.0.6
+ * Fresco - A Beautiful Responsive Lightbox - v1.0.8
  * (c) 2012 Nick Stakenburg
  *
  * http://www.frescojs.com
@@ -7,7 +7,7 @@
  * License: http://www.frescojs.com/license
  */
 ;var Fresco = {
-  version: '1.0.6'
+  version: '1.0.8'
 };
 
 Fresco.skins = {
