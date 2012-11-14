@@ -11,8 +11,12 @@ namespace :attachments do
   task :sync do
     host = "#{$CONFIG.deploy.ssh_user}@#{$CONFIG.deploy.ssh_host}"
     path = "#{$CONFIG.deploy.base}/#{$APP_CONFIG.name}/shared/attachments/"
-    cmd = "rsync -vax content/attachments/ #{host}:#{path}"
-    puts cmd
-    system cmd
+    [
+      "rsync -vax content/attachments/ #{host}:#{path}",
+      "rsync -vax #{host}:#{path} content/attachments/"
+    ].each do |cmd|
+      puts cmd
+      system cmd
+    end
   end
 end

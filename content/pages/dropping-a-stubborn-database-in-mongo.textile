@@ -1,5 +1,5 @@
 Date: 21 June 2012 00:00:00
-Categories: mongo
+Categories: mongodb
 
 h1. Dropping a stubborn database in Mongo
 

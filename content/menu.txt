@@ -1,5 +1,5 @@
 /
 about-me
-mongo
+mongodb
 ruby
 devops
