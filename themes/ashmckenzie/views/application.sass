@@ -50,6 +50,8 @@ header#header
   h2
     color: #888
     font-size: 1.9em
+  nav
+    padding-top: 6px
 
 header#header hgroup *,
 nav,
@@ -151,6 +153,8 @@ article
     color: #444
     text-decoration: none
     border-bottom: 1px dotted #999
+    &.no-decoration
+      border-bottom: none !important
     &:hover
       border-bottom: 1px solid #666
   img
@@ -164,7 +168,7 @@ article
     line-height: 24px
     text-align: justify
     &.meta
-      clear: both
+      // clear: both
       color: #777
       font-size: 0.9em
       margin-top: 0

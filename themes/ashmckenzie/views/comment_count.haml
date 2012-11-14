@@ -1,0 +1,7 @@
+/ - if short_name = Nesta::Config.disqus_short_name
+/   #disqus_thread
+/   - if Sinatra::Application.environment == :development
+/     :javascript
+/       alert('wtf');
+/       var disqus_developer = true;
+/   %script{:type => 'text/javascript', :src => "http://#{short_name}.disqus.com/count.js", :async => true}
