@@ -26,7 +26,7 @@ I really enjoyed this presentation as there was so many juicy tips and tricks!
 * Use @ensureIndex({ expireAfterSeconds: <int>})@ to remove documents after a certain number of seconds with a cleanup precision of 60 seconds ("TTL":http://docs.mongodb.org/manual/tutorial/expire-data/)
 * There is support for "Capped collections":http://www.mongodb.org/display/DOCS/Capped+Collections which allows one to define a collection of a particular size and once full, oldest documents are removed
 * Supports 2D "Geospatial indexing":http://www.mongodb.org/display/DOCS/Geospatial+Indexing (@$near@, @$within@, @$polygon@)
-* db.setProfilingLevel(n, slowms=100ms) n = 0, 1, 2 - default, all queries > 100ms logged
+* @db.setProfilingLevel(n, slowms=100ms)@ n = 0, 1, 2 - default, all queries > 100ms logged
 * When you see BasicCursor in the EXPLAIN query plan, that's a full table scan
 * Calling @explain(true)@ gives more detail
 * Query optimiser samples 1000 queries and decides best approach
