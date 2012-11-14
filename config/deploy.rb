@@ -74,7 +74,7 @@ namespace :index do
 
   desc 'Recreate index'
   task :recreate do
-    run ". /etc/profile ; cd #{current_release} ; rake search:index"
+    run ". /etc/profile ; cd #{current_release} ; bundle exec rake search:index"
   end
 end
 
