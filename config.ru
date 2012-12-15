@@ -1,6 +1,8 @@
 require 'bundler/setup'
 Bundler.require(:default, :development)
 
+require 'newrelic_rpm'
+
 if ENV['RACK_ENV'] == 'production'
   log = File.new(File.expand_path("../log/app.log", __FILE__), "a")
   STDOUT.reopen(log)

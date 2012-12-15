@@ -53,6 +53,8 @@ namespace :deploy do
     put $CONFIG.reject { |x| x == 'deploy' }.to_yaml, "#{shared_path}/config/deploy.yml"
     run "ln -nfs #{shared_path}/config/config.yml #{release_path}/config/config.yml"
     run "ln -nfs #{shared_path}/config/deploy.yml #{release_path}/config/deploy.yml"
+    put File.read('config/newrelic.yml'), "#{shared_path}/config/newrelic.yml"
+    run "ln -nfs #{shared_path}/config/newrelic.yml #{release_path}/config/newrelic.yml"
   end
 end
 

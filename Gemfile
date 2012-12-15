@@ -16,6 +16,7 @@ gem 'actionpack', '~> 3.2.8'
 gem 'stethoscope', :git => 'https://ashmckenzie@github.com/ashmckenzie/stethoscope.git'
 gem 'hashie'
 gem 'ferret'
+gem 'newrelic_rpm'
 
 group :development do
   gem 'thin'

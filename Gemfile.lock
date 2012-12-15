@@ -132,6 +132,7 @@ GEM
     net-ssh (2.6.1)
     net-ssh-gateway (1.1.0)
       net-ssh (>= 1.99.1)
+    newrelic_rpm (3.5.3.25)
     polyglot (0.3.3)
     posix-spawn (0.3.6)
     pry (0.9.10)
@@ -222,6 +223,7 @@ DEPENDENCIES
   nesta-plugin-pagination!
   nesta-plugin-redirect!
   nesta-plugin-search!
+  newrelic_rpm
   rack-rewrite (~> 1.2.1)
   rake
   shotgun
